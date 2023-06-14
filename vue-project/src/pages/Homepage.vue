@@ -75,7 +75,11 @@ AOS.init();
                               <a href="">ODONTOIATRIA ESTETICA</a>
                       </router-link>
                     </li>
-                    <li><a class="nav-link @if(Request::route()->getName() == 'ortodonzia') active @endif active" href="{{ route('ortodonzia.index') }}" aria-current="page">ORTODONZIA</a></li>
+                    <li>
+                      <router-link class="text-dark" :to="{ name: 'Ortodonzia' }">
+                                <a href="">ORTODONZIA</a>
+                      </router-link>
+                    </li>
                     <!--<li><a class="nav-link @if(Request::route()->getName() == 'trattamenti-d-eccellenza') active @endif active" href="{{ route('trattamenti-d-eccellenza.index') }}" aria-current="page">TRATTAMENTI D'ECCELLENZA</a></li>-->
                     <li><a class="nav-link @if(Request::route()->getName() == 'chirurgia') active @endif active" href="{{ route('chirurgia.index') }}" aria-current="page">CHIRURGIA GUIDATA</a></li>
                     <li><a class="nav-link @if(Request::route()->getName() == 'gel-piastrinici') active @endif active" href="{{ route('gel-piastrinici.index') }}" aria-current="page">GEL PIASTRINICI</a></li>

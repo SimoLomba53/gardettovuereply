@@ -8,7 +8,7 @@ import Impiantologia from '../pages/Impiantologia.vue'
 import Contact from '../pages/Contact.vue'
 import TrattamentiGengivali from '../pages/TrattamentiGengivali.vue'
 import OdontoiatriaEstetica from '../pages/OdontoiatriaEstetica.vue'
-import Fifthproject from '../pages/Fifthproject.vue'
+import Ortodonzia from '../pages/Ortodonzia.vue'
 import Sixthproject from '../pages/Sixthproject.vue'
 
 
@@ -54,9 +54,9 @@ const router = createRouter({
       component: OdontoiatriaEstetica,
     },
     {
-      path: "/fifthproject",
-      name: "Fifthproject",
-      component: Fifthproject,
+      path: "/ortodonzia",
+      name: "Ortodonzia",
+      component: Ortodonzia,
     },
     {
       path: "/sixthproject",
