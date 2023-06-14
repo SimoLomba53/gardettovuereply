@@ -51,7 +51,9 @@ AOS.init();
                     </router-link>
                   </li>
                   <li>
-                    <a class="nav-link @if(Request::route()->getName() == 'ourteam') active @endif active" href="{{ route('ourteam.index') }}" aria-current="page">IL NOSTRO TEAM</a>
+                    <router-link class="text-dark" :to="{ name: 'OurTeam' }">
+                        <a href="">IL NOSTRO TEAM</a>
+                    </router-link>
                   </li>
                   <li class="nav-item dropdown">
                    <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -71,7 +73,9 @@ AOS.init();
                    </ul>
                   </li>
                   <li>
-                    <a class="nav-link @if(Request::route()->getName() == 'contact') active @endif active" href="{{ route('contact.index') }}" aria-current="page">CONTATTACI</a>
+                    <router-link class="text-dark" :to="{ name: 'Contact' }">
+                        <a href="">CONTATTACI</a>
+                    </router-link>
                   </li>
                 </ul>
               </div>

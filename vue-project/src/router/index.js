@@ -2,10 +2,10 @@ import { createRouter, createWebHistory } from "vue-router";
 
 
 import Homepage from '../pages/Homepage.vue'
-import ProjectList from '../pages/ProjectList.vue'
+import OurTeam from '../pages/OurTeam.vue'
 import Info from '../pages/Info.vue'
 import Firstproject from '../pages/Firstproject.vue'
-import Secondproject from '../pages/Secondproject.vue'
+import Contact from '../pages/Contact.vue'
 import Thirdproject from '../pages/Thirdproject.vue'
 import Fourthproject from '../pages/Fourthproject.vue'
 import Fifthproject from '../pages/Fifthproject.vue'
@@ -23,9 +23,9 @@ const router = createRouter({
       component: Homepage,
     },
     {
-      path: "/projectlist",
-      name: "ProjectList",
-      component: ProjectList,
+      path: "/ourteam",
+      name: "OurTeam",
+      component: OurTeam,
     },
      {
       path: "/info",
@@ -39,9 +39,9 @@ const router = createRouter({
     },
 
     {
-      path: "/secondproject",
-      name: "Secondproject",
-      component: Secondproject,
+      path: "/contact",
+      name: "Contact",
+      component: Contact,
     },
     {
       path: "/thirdproject",
