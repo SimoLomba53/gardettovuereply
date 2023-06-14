@@ -272,9 +272,7 @@ AOS.init();
         <hr class="text-primary">
       </main>
       <footer>
-        <div>
-          <img class src="/img/kisspng-logo-dentistry-brand-blue-5bfbd76a316cb5.4880882415432313382025.png" alt="" width="100px">
-        </div>
+        
         <div class="footlist d-flex flex-row flex-wrap justify-content-center gap-5  mb-5">
           <div>
           <ul class="text-center">
