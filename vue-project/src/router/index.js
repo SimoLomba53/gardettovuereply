@@ -6,7 +6,7 @@ import OurTeam from '../pages/OurTeam.vue'
 import Info from '../pages/Info.vue'
 import Impiantologia from '../pages/Impiantologia.vue'
 import Contact from '../pages/Contact.vue'
-import Thirdproject from '../pages/Thirdproject.vue'
+import TrattamentiGengivali from '../pages/TrattamentiGengivali.vue'
 import Fourthproject from '../pages/Fourthproject.vue'
 import Fifthproject from '../pages/Fifthproject.vue'
 import Sixthproject from '../pages/Sixthproject.vue'
@@ -44,9 +44,9 @@ const router = createRouter({
       component: Contact,
     },
     {
-      path: "/thirdproject",
-      name: "Thirdproject",
-      component: Thirdproject,
+      path: "/trattamentigengivali",
+      name: "TrattamentiGengivali",
+      component: TrattamentiGengivali,
     },
     {
       path: "/fourthproject",
