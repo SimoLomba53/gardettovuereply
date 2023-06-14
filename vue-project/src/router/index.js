@@ -9,7 +9,8 @@ import Contact from '../pages/Contact.vue'
 import TrattamentiGengivali from '../pages/TrattamentiGengivali.vue'
 import OdontoiatriaEstetica from '../pages/OdontoiatriaEstetica.vue'
 import Ortodonzia from '../pages/Ortodonzia.vue'
-import Sixthproject from '../pages/Sixthproject.vue'
+import ChirurgiaGuidata from '../pages/ChirurgiaGuidata.vue'
+import GelPiastrinici from '../pages/GelPiastrinici.vue'
 
 
 const router = createRouter({
@@ -59,9 +60,14 @@ const router = createRouter({
       component: Ortodonzia,
     },
     {
-      path: "/sixthproject",
-      name: "Sixthproject",
-      component: Sixthproject,
+      path: "/chirurgiaguidata",
+      name: "ChirurgiaGuidata",
+      component: ChirurgiaGuidata,
+    },
+    {
+      path: "/gelpiastrinici",
+      name: "GelPiastrinici",
+      component: GelPiastrinici,
     },
   ],
 });
