@@ -220,7 +220,10 @@ AOS.init();
               <h1 class="text-dark">IMPLANTOLOGIA</h1>
               <h3 class="">Gli impianti dentali sono la migliore opzione disponibile per sostituire i denti mancanti o danneggiati.</h3>
               <p>Possono aiutarti a riacquistare la capacità di masticare. Perché lasciarsi sfuggire l'opportunità?</p>
-              <button>SCOPRI DI PIU</button>
+              <router-link class="text-dark" :to="{ name: 'Impiantologia' }">
+                             <button>SCOPRI DI PIU</button> 
+              </router-link>
+              
             </div>
              <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                <img src='/pexels-cottonbro-studio-6502306 (1).jpg' alt="">
@@ -238,7 +241,10 @@ AOS.init();
               <h3 class="">Hai le gengive sanguinanti?</h3>
               <p>Non è normale! Non aspettare che la condizione peggiori e diventi parodontite.</p>
               <P>Grazie alla nuova Tecnologia Airflow®, all’interno del protocollo GBT (Guided Biofilm Therapy), assicuriamo un’igiene orale ancora più profonda e senza dolore.</P>
-              <button>SCOPRI DI PIU</button>
+              <router-link class="text-dark" :to="{ name: 'TrattamentiGengivali' }">
+                                <button>SCOPRI DI PIU</button>
+              </router-link>
+              
             </div>
             </div>
          </div>
@@ -249,7 +255,10 @@ AOS.init();
               <h1 class="text-dark">ODONTIATRIA ESTETICA</h1>
               <h3 class="">Hai denti disallineati, gialli o usurati?</h3>
               <p>Offriamo una serie di diversi servizi di odontoiatria estetica per correggere difetti minori e darti un sorriso radioso.</p>
-              <button>SCOPRI DI PIU</button>
+              <router-link class="text-dark" :to="{ name: 'TrattamentiGengivali' }">
+                                <button>SCOPRI DI PIU</button>
+              </router-link>
+              
             </div>
              <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                <img src='/pexels-shiny-diamond-3762408 (1).jpg' alt="">
@@ -270,25 +279,67 @@ AOS.init();
           <div>
           <ul class="text-center">
             <h4>LA CLINICA</h4>
-            <li><a class="nav-link @if(Request::route()->getName() == 'about') active @endif active" href="{{ route('about.index') }}" aria-current="page">About</a></li>
-            <li><a class="nav-link @if(Request::route()->getName() == 'ourteam') active @endif active" href="{{ route('ourteam.index') }}" aria-current="page">Il nostro team</a></li>
-            <li><a class="nav-link @if(Request::route()->getName() == 'contact') active @endif active" href="{{ route('contact.index') }}" aria-current="page">Contattaci</a></li>
+            <li>
+              <router-link class="text-dark" :to="{ name: 'Info' }">
+                        <a href="">About</a>
+              </router-link></li>
+            <li>
+              <router-link class="text-dark" :to="{ name: 'OurTeam' }">
+                          <a href="">Il nostro team</a>
+               </router-link>
+            </li>
+            <li>
+              <router-link class="text-dark" :to="{ name: 'Contact' }">
+                          <a href="">Contattaci</a>
+                </router-link>
+            </li>
           </ul>
           </div>
            <div>
           <ul class="text-center">
             <h4>SERVIZI</h4>
-            <li><a class="nav-link @if(Request::route()->getName() == 'impiantologia') active @endif active" href="{{ route('impiantologia.index') }}" aria-current="page">Impiantologia</a></li>
-            <li><a class="nav-link @if(Request::route()->getName() == 'trattamenti-gengivali') active @endif active" href="{{ route('trattamenti-gengivali.index') }}" aria-current="page">Trattamenti gengivali</a></li>
-            <li><a class="nav-link @if(Request::route()->getName() == 'estetica') active @endif active" href="{{ route('estetica.index') }}" aria-current="page">Odontoiatria estetica</a></li>
-            <li><a class="nav-link @if(Request::route()->getName() == 'ortodonzia') active @endif active" href="{{ route('ortodonzia.index') }}" aria-current="page">Ortodonzia</a></li>
-            <li><a class="nav-link @if(Request::route()->getName() == 'chirurgia') active @endif active" href="{{ route('chirurgia.index') }}" aria-current="page">Chirurgia guidata</a></li>
-            <li><a class="nav-link @if(Request::route()->getName() == 'gel-piastrinici') active @endif active" href="{{ route('gel-piastrinici.index') }}" aria-current="page">Gel piastrinici</a></li>
-            <li><a class="nav-link @if(Request::route()->getName() == 'allonfour') active @endif active" href="{{ route('allonfour.index') }}" aria-current="page">All-On-Four</a></li>
-            <li><a class="nav-link @if(Request::route()->getName() == 'impronta-ottica') active @endif active" href="{{ route('impronta-ottica.index') }}" aria-current="page">Impronta ottica</a></li>
+            <li>
+              <router-link class="text-dark" :to="{ name: 'Impiantologia' }">
+                            <a href="">Implantologia</a>
+              </router-link>
+            </li>
+            <li>
+              <router-link class="text-dark" :to="{ name: 'TrattamentiGengivali' }">
+                              <a href="">Trattamenti gengivali</a>
+              </router-link>
+            </li>
+            <li>
+              <router-link class="text-dark" :to="{ name: 'OdontoiatriaEstetica' }">
+                                <a href="">Odontoiatria estetica</a>
+              </router-link>
+            </li>
+            <li>
+              <router-link class="text-dark" :to="{ name: 'Ortodonzia' }">
+                      <a href="">Ortodonzia</a>
+              </router-link>
+            </li>
+            <li>
+              <router-link class="text-dark" :to="{ name: 'ChirurgiaGuidata' }">
+                                    <a href="">Chirurgia guidata</a>
+                        </router-link>
+            </li>
+            <li>
+              <router-link class="text-dark" :to="{ name: 'GelPiastrinici' }">
+                                        <a href="">Gel piastrinici</a>
+              </router-link>
+            </li>
+            <li>
+              <router-link class="text-dark" :to="{ name: 'AllOnFour' }">
+                                      <a href="">All on four</a>
+              </router-link>
+            </li>
+            <li>
+               <router-link class="text-dark" :to="{ name: 'Ottica' }">
+                                    <a href="">Impronta ottica</a>
+                </router-link></li>
             <li>
               <router-link class="text-dark" :to="{ name: 'Zigomatica' }">
-                                  <a href="">IMPLANTOLOGIA ZIGOMATICA</a>
+                                  <a href="">Implantologia zigomatica</a>
               </router-link>
             </li>
           </ul>

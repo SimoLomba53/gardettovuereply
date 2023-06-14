@@ -289,6 +289,93 @@ AOS.init();
           </section>
           <hr class="text-primary">
           </main>
+          <footer>
+            <div>
+              <img class src="/img/kisspng-logo-dentistry-brand-blue-5bfbd76a316cb5.4880882415432313382025.png" alt="" width="100px">
+            </div>
+            <div class="footlist d-flex flex-row flex-wrap justify-content-center gap-5  mb-5">
+              <div>
+              <ul class="text-center">
+                <h4>LA CLINICA</h4>
+                <li>
+                  <router-link class="text-dark" :to="{ name: 'Info' }">
+                            <a href="">About</a>
+                  </router-link></li>
+                <li>
+                  <router-link class="text-dark" :to="{ name: 'OurTeam' }">
+                              <a href="">Il nostro team</a>
+                   </router-link>
+                </li>
+                <li>
+                  <router-link class="text-dark" :to="{ name: 'Contact' }">
+                              <a href="">Contattaci</a>
+                    </router-link>
+                </li>
+              </ul>
+              </div>
+               <div>
+              <ul class="text-center">
+                <h4>SERVIZI</h4>
+                <li>
+                  <router-link class="text-dark" :to="{ name: 'Impiantologia' }">
+                                <a href="">Implantologia</a>
+                  </router-link>
+                </li>
+                <li>
+                  <router-link class="text-dark" :to="{ name: 'TrattamentiGengivali' }">
+                                  <a href="">Trattamenti gengivali</a>
+                  </router-link>
+                </li>
+                <li>
+                  <router-link class="text-dark" :to="{ name: 'OdontoiatriaEstetica' }">
+                                    <a href="">Odontoiatria estetica</a>
+                  </router-link>
+                </li>
+                <li>
+                  <router-link class="text-dark" :to="{ name: 'Ortodonzia' }">
+                          <a href="">Ortodonzia</a>
+                  </router-link>
+                </li>
+                <li>
+                  <router-link class="text-dark" :to="{ name: 'ChirurgiaGuidata' }">
+                                        <a href="">Chirurgia guidata</a>
+                            </router-link>
+                </li>
+                <li>
+                  <router-link class="text-dark" :to="{ name: 'GelPiastrinici' }">
+                                            <a href="">Gel piastrinici</a>
+                  </router-link>
+                </li>
+                <li>
+                  <router-link class="text-dark" :to="{ name: 'AllOnFour' }">
+                                          <a href="">All on four</a>
+                  </router-link>
+                </li>
+                <li>
+                   <router-link class="text-dark" :to="{ name: 'Ottica' }">
+                                        <a href="">Impronta ottica</a>
+                    </router-link></li>
+                <li>
+                  <router-link class="text-dark" :to="{ name: 'Zigomatica' }">
+                                      <a href="">Implantologia zigomatica</a>
+                  </router-link>
+                </li>
+              </ul>
+              </div>
+               <div>
+              <ul class="text-center">
+                <h4>CONTATTACI</h4>
+                <li><i class="fa-solid fa-location-dot "></i><span>Via Trento, 7</span></li>
+                <li><span>San Benigno Canavese,TO</span></li>
+                <li>10080</li>
+                <li><a href=""><i class="fa-solid fa-phone"></i>011 988 344</a></li>
+                <li><a href=""><i class="fa-solid fa-envelope"></i>Mail</a></li>
+                <li><a href="">Social Network</a></li>
+              </ul>
+              </div>
+            </div>
+            <p class="text-center copyright">© 2023 Dr. Fulvio Gardetto Clinica Odontodiatrica </p>
+          </footer>
            
     </body>
     </html>
