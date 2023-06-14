@@ -1,55 +1,247 @@
 <script setup>
-
+import AOS from "aos";
+AOS.init();
 
 
 </script>
 
 <template>
-    <body>
-        <div class="hero">
-
-         <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline>
-            <source
-              src='/gocciablu.mp4' 
-              type="video/mp4"
-            />
-          </video>
-          <!--<img class="back-video1" src="/slporta.jpg" alt="">-->
-
-          <nav>
-            <ul>
-                <li>
-                  <router-link :to="{ name: 'ProjectList' }">
-                    PROJECT
-                 </router-link>
-                </li>
-            </ul>
-            
-            <ul>
-                <li>
-                  <router-link :to="{ name: 'Info' }">
-                   INFO
-                  </router-link>
-                </li>
-            </ul>
-          </nav>
-          <div class="content">
-            <div>
-            <h1 class="mb-1 ">SIMONE LOMBARDI</h1>
-            <h2 >FULL STACK WEB DEVELOPER</h2>
-            <router-link :to="{ name: 'ProjectList' }" class="explorebutton">
-               Explore
-            </router-link>
-            
-            </div>
-            <div>
-                <img class="logo" src="/ultimatelogo.png" alt="">
-            </div>
-          </div>
+    <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Studio Gardetto</title>
+    
           
+
+      <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+        crossorigin="anonymous"
+      />
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+
+      
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+
+    
+    </head>
+    <body>
+      <header>
+          <div class="col-12 d-flex flex-row align-items-center justify-content-between p-4">
+              <div>
+                  <a class="nav-link @if(Request::route()->getName() == 'about') active @endif active" href="{{ route('about.index') }}" aria-current="page"><img class="headerlogo" src="image00012.jpeg" alt=""></a>
+              </div>
+              <div>
+                <ul class="navbar flex-row gap-5 d-none d-sm-none d-md-none d-lg-flex d-xl-flex">
+                  <li>
+                    <router-link class="text-dark" :to="{ name: 'Info' }">
+                      <a href="">ABOUT</a>
+                    </router-link>
+                  </li>
+                  <li>
+                    <a class="nav-link @if(Request::route()->getName() == 'ourteam') active @endif active" href="{{ route('ourteam.index') }}" aria-current="page">IL NOSTRO TEAM</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                   <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    SERVIZI
+                   </a>
+                   <ul class="dropdown-menu submenu text-center p-4">
+                    <li><a class="nav-link @if(Request::route()->getName() == 'impiantologia') active @endif active" href="{{ route('impiantologia.index') }}" aria-current="page">IMPIANTOLOGIA</a></li>
+                    <li><a class="nav-link @if(Request::route()->getName() == 'trattamenti-gengivali') active @endif active" href="{{ route('trattamenti-gengivali.index') }}" aria-current="page">TRATTAMENTI GENIGIVALI</a></li>
+                    <li><a class="nav-link @if(Request::route()->getName() == 'estetica') active @endif active" href="{{ route('estetica.index') }}" aria-current="page">ODONTOIATRIA ESTETICA</a></li>
+                    <li><a class="nav-link @if(Request::route()->getName() == 'ortodonzia') active @endif active" href="{{ route('ortodonzia.index') }}" aria-current="page">ORTODONZIA</a></li>
+                    <!--<li><a class="nav-link @if(Request::route()->getName() == 'trattamenti-d-eccellenza') active @endif active" href="{{ route('trattamenti-d-eccellenza.index') }}" aria-current="page">TRATTAMENTI D'ECCELLENZA</a></li>-->
+                    <li><a class="nav-link @if(Request::route()->getName() == 'chirurgia') active @endif active" href="{{ route('chirurgia.index') }}" aria-current="page">CHIRURGIA GUIDATA</a></li>
+                    <li><a class="nav-link @if(Request::route()->getName() == 'gel-piastrinici') active @endif active" href="{{ route('gel-piastrinici.index') }}" aria-current="page">GEL PIASTRINICI</a></li>
+                    <li><a class="nav-link @if(Request::route()->getName() == 'allonfour') active @endif active" href="{{ route('allonfour.index') }}" aria-current="page">ALL-ON-FOUR</a></li>
+                    <li><a class="nav-link @if(Request::route()->getName() == 'impronta-ottica') active @endif active" href="{{ route('impronta-ottica.index') }}" aria-current="page">IMPRONTA OTTICA</a></li>
+                    <li><a class="nav-link @if(Request::route()->getName() == 'impronta-zigomatica') active @endif active" href="{{ route('impronta-zigomatica.index') }}" aria-current="page">IMPLANTOLOGIA ZIGOMATICA</a></li>
+                   </ul>
+                  </li>
+                  <li>
+                    <a class="nav-link @if(Request::route()->getName() == 'contact') active @endif active" href="{{ route('contact.index') }}" aria-current="page">CONTATTACI</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="d-block d-sm-block d-md-block d-lg-none d-xl-none">
+              <li class="nav-item dropdown smallnavmenu">
+                   <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-bars"></i>
+                   </a>
+                   <ul class="dropdown-menu submenu text-center">
+                    <li>
+                     <a class="nav-link @if(Request::route()->getName() == 'about') active @endif active" href="{{ route('about.index') }}" aria-current="page">ABOUT</a>
+                    </li>
+                    <li>
+                     <a class="nav-link @if(Request::route()->getName() == 'ourteam') active @endif active" href="{{ route('ourteam.index') }}" aria-current="page">IL NOSTRO TEAM</a>
+                    </li>
+                    <li>
+                     <a class="nav-link @if(Request::route()->getName() == 'contact') active @endif active" href="{{ route('contact.index') }}" aria-current="page">CONTATTACI</a>
+                    </li>
+                    <hr>
+                    <li>
+                      <a class="nav-link @if(Request::route()->getName() == 'impiantologia') active @endif active" href="{{ route('impiantologia.index') }}" aria-current="page">IMPIANTOLOGIA</a>
+                    </li>
+                    <li>
+                      <a class="nav-link @if(Request::route()->getName() == 'trattamenti-gengivali') active @endif active" href="{{ route('trattamenti-gengivali.index') }}" aria-current="page">TRATTAMENTI GENIGIVALI</a>
+                    </li>
+                  <li>
+                    <a class="nav-link @if(Request::route()->getName() == 'estetica') active @endif active" href="{{ route('estetica.index') }}" aria-current="page">ODONTOIATRIA ESTETICA</a>
+                    </li>
+                    <li>
+                      <a class="nav-link @if(Request::route()->getName() == 'ortodonzia') active @endif active" href="{{ route('ortodonzia.index') }}" aria-current="page">ORTODONZIA</a>
+                    </li>
+                    <!--<li>
+                      <a class="nav-link @if(Request::route()->getName() == 'trattamenti-d-eccellenza') active @endif active" href="{{ route('trattamenti-d-eccellenza.index') }}" aria-current="page">TRATTAMENTI D'ECCELLENZA</a>
+                    </li>-->
+                    <li>
+                      <a class="nav-link @if(Request::route()->getName() == 'chirurgia') active @endif active" href="{{ route('chirurgia.index') }}" aria-current="page">CHIRURGIA GUIDATA</a>
+                    </li>
+                    <li>
+                      <a class="nav-link @if(Request::route()->getName() == 'gel-piastrinici') active @endif active" href="{{ route('gel-piastrinici.index') }}" aria-current="page">GEL PIASTRINICI</a>
+                    </li>
+                    <li>
+                      <a class="nav-link @if(Request::route()->getName() == 'allonfour') active @endif active" href="{{ route('allonfour.index') }}" aria-current="page">ALL-ON-FOUR</a>
+                    </li>
+                    <li>
+                      <a class="nav-link @if(Request::route()->getName() == 'impronta-ottica') active @endif active" href="{{ route('impronta-ottica.index') }}" aria-current="page">IMPRONTA OTTICA</a>
+                    </li>
+                    <li>
+                      <a class="nav-link @if(Request::route()->getName() == 'impronta-zigomatica') active @endif active" href="{{ route('impronta-zigomatica.index') }}" aria-current="page">IMPLANTOLOGIA ZIGOMATICA</a>
+                    </li>
+                    </ul>
+                  </li>
+              </div>
+    
+          </div>
+      </header>
+      <main>
+         <div class="col-12 backwallpaper d-flex align-items-center">
+            <div class="col-8 d-flex flex-column justify-content-center p-4">
+            <h1 class="text-white fadein visible">STUDIO DENTISTICO GARDETTO SRL</h1>
+            <p class="text-white fadein visible homepageparagraph">Il nostro studio dentistico, formato da un team di professionisti appassionati, offre una vasta gamma di servizi di alta qualità per tutta la famiglia.</p>
+            <button><a class="nav-link @if(Request::route()->getName() == 'contact') active @endif active" href="{{ route('contact.index') }}" aria-current="page">CONTATTACI</a></button>
+            </div>
+         </div>
+         <div class="col-12 intro">
+            <div data-aos="fade-up" data-aos-duration="1000" class="welcome col-8 offset-2 d-flex flex-column justify-content-center">
+            <h1 class="text-center fadein visible">BENVENUTO NEL TUO STUDIO ODONTOIATRICO!</h1>
+            <p class="fadein visible">Esperienza ventennale, aggiornamento costante e rigore professionale: questo è lo Studio Dentistico Gardetto SRL a San Benigno Canavese(a pochi km da Torino).</p>
+            <p>Professionisti che uniscono diverse competenze e saperi, votata alla bellezza e alla salute del vostro sorriso,quattro ambulatori attrezzati con strumentazioni specifiche per ogni particolare trattamento, le più moderne tecnologie in campo odontoiatrico per operare con assoluta precisione ed efficacia, la più totale igiene e sterilità degli ambienti e degli strumenti, l’alta competenza nell’offerta dei migliori servizi per la salute orale dei nostri pazienti.</p>
+            <p>Lo Studio Dentistico Gardetto è tutto questo, garantendo sempre la massima cortesia e discrezione nel miglior comfort possibile per il paziente.</p>
+            </div>
+         </div>
+         <hr>
+         <!--INIZIO DELLE ILLUSTRAZIONI-->
+         <section>
+         <!--PRIMA ILLUSTRAZIONE-->
+         <div data-aos="fade-up" data-aos-duration="1000" class="col-12 illustration">
+           <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row">
+             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
+              <h1 class="text-dark">IMPLANTOLOGIA</h1>
+              <h3 class="">Gli impianti dentali sono la migliore opzione disponibile per sostituire i denti mancanti o danneggiati.</h3>
+              <p>Possono aiutarti a riacquistare la capacità di masticare. Perché lasciarsi sfuggire l'opportunità?</p>
+              <button>SCOPRI DI PIU</button>
+            </div>
+             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+               <img src='/pexels-cottonbro-studio-6502306 (1).jpg' alt="">
+             </div>
+             </div>
+         </div>
+         <!--SECONDA ILLUSTRAZIONE-->
+          <div data-aos="fade-up" data-aos-duration="1000" class="col-12 illustration">
+           <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row  ">
+             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+               <img src='/pexels-karolina-grabowska-6627519 (1).jpg' alt="">
+             </div>
+             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mt-5 mt-sm-5 mt-md-0 mt-lg-0 mt-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
+              <h1 class="text-dark">TRATTAMENTI GENGIVALI</h1>
+              <h3 class="">Hai le gengive sanguinanti?</h3>
+              <p>Non è normale! Non aspettare che la condizione peggiori e diventi parodontite.</p>
+              <P>Grazie alla nuova Tecnologia Airflow®, all’interno del protocollo GBT (Guided Biofilm Therapy), assicuriamo un’igiene orale ancora più profonda e senza dolore.</P>
+              <button>SCOPRI DI PIU</button>
+            </div>
+            </div>
+         </div>
+         <!--TERZA ILLUSTRAZIONE-->
+          <div data-aos="fade-up" data-aos-duration="1000" class="col-12 illustration">
+           <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row">
+             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
+              <h1 class="text-dark">ODONTIATRIA ESTETICA</h1>
+              <h3 class="">Hai denti disallineati, gialli o usurati?</h3>
+              <p>Offriamo una serie di diversi servizi di odontoiatria estetica per correggere difetti minori e darti un sorriso radioso.</p>
+              <button>SCOPRI DI PIU</button>
+            </div>
+             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+               <img src='/pexels-shiny-diamond-3762408 (1).jpg' alt="">
+             </div>
+             </div>
+         </div>
+
+        </section>
+
+      
+        <hr class="text-primary">
+      </main>
+      <footer>
+        <div>
+          <img class src="/img/kisspng-logo-dentistry-brand-blue-5bfbd76a316cb5.4880882415432313382025.png" alt="" width="100px">
         </div>
+        <div class="footlist d-flex flex-row flex-wrap justify-content-center gap-5  mb-5">
+          <div>
+          <ul class="text-center">
+            <h4>LA CLINICA</h4>
+            <li><a class="nav-link @if(Request::route()->getName() == 'about') active @endif active" href="{{ route('about.index') }}" aria-current="page">About</a></li>
+            <li><a class="nav-link @if(Request::route()->getName() == 'ourteam') active @endif active" href="{{ route('ourteam.index') }}" aria-current="page">Il nostro team</a></li>
+            <li><a class="nav-link @if(Request::route()->getName() == 'contact') active @endif active" href="{{ route('contact.index') }}" aria-current="page">Contattaci</a></li>
+          </ul>
+          </div>
+           <div>
+          <ul class="text-center">
+            <h4>SERVIZI</h4>
+            <li><a class="nav-link @if(Request::route()->getName() == 'impiantologia') active @endif active" href="{{ route('impiantologia.index') }}" aria-current="page">Impiantologia</a></li>
+            <li><a class="nav-link @if(Request::route()->getName() == 'trattamenti-gengivali') active @endif active" href="{{ route('trattamenti-gengivali.index') }}" aria-current="page">Trattamenti gengivali</a></li>
+            <li><a class="nav-link @if(Request::route()->getName() == 'estetica') active @endif active" href="{{ route('estetica.index') }}" aria-current="page">Odontoiatria estetica</a></li>
+            <li><a class="nav-link @if(Request::route()->getName() == 'ortodonzia') active @endif active" href="{{ route('ortodonzia.index') }}" aria-current="page">Ortodonzia</a></li>
+            <li><a class="nav-link @if(Request::route()->getName() == 'chirurgia') active @endif active" href="{{ route('chirurgia.index') }}" aria-current="page">Chirurgia guidata</a></li>
+            <li><a class="nav-link @if(Request::route()->getName() == 'gel-piastrinici') active @endif active" href="{{ route('gel-piastrinici.index') }}" aria-current="page">Gel piastrinici</a></li>
+            <li><a class="nav-link @if(Request::route()->getName() == 'allonfour') active @endif active" href="{{ route('allonfour.index') }}" aria-current="page">All-On-Four</a></li>
+            <li><a class="nav-link @if(Request::route()->getName() == 'impronta-ottica') active @endif active" href="{{ route('impronta-ottica.index') }}" aria-current="page">Impronta ottica</a></li>
+            <li><a class="nav-link @if(Request::route()->getName() == 'impronta-zigomatica') active @endif active" href="{{ route('impronta-zigomatica.index') }}" aria-current="page">Implantologia zigomatica</a></li>
+          </ul>
+          </div>
+           <div>
+          <ul class="text-center">
+            <h4>CONTATTACI</h4>
+            <li><i class="fa-solid fa-location-dot "></i><span>Via Trento, 7</span></li>
+            <li><span>San Benigno Canavese,TO</span></li>
+            <li>10080</li>
+            <li><a href=""><i class="fa-solid fa-phone"></i>011 988 344</a></li>
+            <li><a href=""><i class="fa-solid fa-envelope"></i>Mail</a></li>
+            <li><a href="">Social Network</a></li>
+          </ul>
+          </div>
+        </div>
+        <p class="text-center copyright">© 2023 Dr. Fulvio Gardetto Clinica Odontodiatrica </p>
+      </footer>
      
-      </body>
+    
+      
+    </body>
+    
+  </html>
 </template>
 
 <style>

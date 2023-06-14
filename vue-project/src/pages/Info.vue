@@ -4,52 +4,92 @@ AOS.init();
 </script>
 
 <template>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Document</title>
 
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <body class="infobody">
-    <nav>
-        <ul>
-            <li>
-              <router-link class="text-dark" :to="{ name: 'Homepage' }">
-                HOMEPAGE
-              </router-link>
-            </li>
-        </ul>
-            
-        <ul>
-            <li>
-              <router-link class="text-dark" :to="{ name: 'Info' }">
-                INFO
-              </router-link>
-            </li>
-        </ul>
-    </nav>
-    <div class="col-12 backcolor">
-    <div class="col-10 offset-1 infotextcont">
-       <div class="col-12 mb-5 d-flex flex-row">
-         <div class="col-8">
-           <h1 class="firstinfotext"><span class="fst-italic text-secondary">Simone Lombardi </span>is a Full Stack Web Developer from Turin,Italy.</h1>
-         </div>
-         <div class="col-4">
-           
-         </div>
-       </div>
-       <div class="col-12 d-flex flex-row">
-         <div class="col-4">
+        
 
+       <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+        crossorigin="anonymous"
+      />
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  </head>
+  <body>
+      
+
+       <div class="col-12 aboutwallpaper d-flex align-items-center">
+            <div class="col-8 d-flex flex-column justify-content-center p-4">
+            <h1 class="text-white fadein visible">IL NOSTRO STUDIO</h1>
+            </div>
          </div>
-         <div class="col-8">
-           <p data-aos="fade-up" data-aos-duration="1000" class="secondinfotext"><span class="text-secondary">Simone</span>  decides to deepen his passion for technology as much as possible, as he considers it fundamental and at the center of our future. Sharpen your full stack developer skills with <span class="text-success">Boolean</span> , a very important intensive programming course,and he follows the awards in 2023.
-             He loves creating effects and animations that stand out, taking care of the aesthetic factor of a web page, and giving it a particular style that manages to stand out.
-             He is an extroverted, sunny and motivated person who loves interacting with others and making the most of every new acquaintance. Besides technology, his further passions are travelling, music and sports.</p>
+         <div class="col-12 intro">
+            <div data-aos="fade-up" data-aos-duration="1000"  class="welcome col-8 offset-2 d-flex flex-column justify-content-center">
+            <h1 class="text-center fadein visible">LA NOSTRA MISSIONE</h1>
+            <h3 class="text-center">Fornire servizi di qualità, rapidamente. Perché ogni paziente è importante per noi.</h3>
+            <p class="fadein visible">Il nostro studio odontoiatrico fornisce cure dentistiche di qualità per tutta la famiglia dal 2001. Sia che tu abbia bisogno di una pulizia dentale regolare o di un intervento chirurgico complesso, sei in buone mani con il Dr. Fulvio Gardetto e il suo team esperto. Siamo orgogliosi di offrire un ambiente caldo e accogliente e di rendere ogni appuntamento il più piacevole possibile.</p>
+            <p>Il nostro studio è dotato di attrezzature all'avanguardia, tra cui una telecamera intraorale, microscopio, raggi X digitali, VELscope (per la rilevazione del cancro orale), Periowave e laser (per i trattamenti gengivali).</p>
+            </div>
          </div>
-       </div>
-    </div>
-    <div>
-        <img class="logo2" src="/blacklogo.png" alt="">
-    </div>
-    </div>
+       
+         <div class="aboutback col-12">
+         <div class="imgcont col-10 offset-1 d-flex flex-row flex-wrap  gap-5  align-items-center justify-content-center">
+            <div data-aos="fade-up" data-aos-duration="1000"  class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-3 d-flex align-items-center justify-content-center">
+              <img  src="https://www.studio06.it/wp-content/uploads/2017/12/sanbenigno_dentist_01.jpg"  alt="">
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000"  class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-3 d-flex align-items-center justify-content-center">
+              <img src="https://www.studio06.it/wp-content/uploads/2017/12/sanbenigno_dentist_03.jpg"  alt="">
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000"  class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-3 d-flex align-items-center justify-content-center">
+              <img src="https://www.studio06.it/wp-content/uploads/2017/12/sanbenigno_dentist_04.jpg"  alt="">
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000"  class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-3 d-flex align-items-center justify-content-center">
+              <img src="https://www.studio06.it/wp-content/uploads/2017/12/sanbenigno_dentist_05.jpg"  alt="">
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000"  class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-3 d-flex align-items-center justify-content-center">
+              <img src="https://www.studio06.it/wp-content/uploads/2017/12/sanbenigno_dentist_06.jpg"  alt="">
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000"  class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-3 d-flex align-items-center justify-content-center">
+              <img src="https://www.studio06.it/wp-content/uploads/2017/12/sanbenigno_dentist_07.jpg"  alt="">
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000"  class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-3 d-flex align-items-center justify-content-center">
+              <img src="https://www.studio06.it/wp-content/uploads/2017/12/sanbenigno_dentist_08.jpg"  alt="">
+            </div>
+             <div data-aos="fade-up" data-aos-duration="1000"  class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-3 d-flex align-items-center justify-content-center">
+              <img src="https://www.studio06.it/wp-content/uploads/2017/12/sanbenigno_dentist_09.jpg"  alt="">
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000"  class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-3 d-flex align-items-center justify-content-center">
+              <img src="https://www.studio06.it/wp-content/uploads/2017/12/sanbenigno_dentist_11.jpg"  alt="">
+            </div>
+         </div>
+         </div>
+       
+
+
+
+
+
+      
   </body>
+  </html>
+  
 </template>
 
 <style>

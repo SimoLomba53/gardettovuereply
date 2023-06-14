@@ -1,445 +1,1243 @@
 @import './base.css';
 
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Space Grotesk', sans-serif;
-  
-  
+body {
+  background: rgb(191, 191, 191);
+  background: linear-gradient(90deg, rgba(191, 191, 191, 1) 0%, rgba(191, 191, 191, 1) 150px, rgba(255, 255, 255, 1) 150px);
+}
+
+/*NO LINE IN SMARTPHONE VERSION*/
+
+@media screen and (max-width: 896px) {
+  body {
+    background: rgb(191, 191, 191);
+    background: linear-gradient(90deg, rgba(191, 191, 191, 1) 0%, rgba(191, 191, 191, 1) 0px, rgba(255, 255, 255, 1) 0px);
+  }
 
 }
 
-body{
-  height: 100vh;
-  background: transparent;
+.headerlogo{
+  width: 110px;
+  height: 130px;
 }
 
-.hero{
-  width: 100%;
-  height: 100%;
-  position: relative;
-  padding:0 5%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+.jumbotron {
+  min-height: 100vh;
 }
 
-nav{
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 20px 2%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-nav ul{
-  padding-left: 0;
-}
-
-nav .logo{
-  width: 80px;
-}
-
-nav ul li{
-  list-style: none;
-  display: inline-block;
-  
-
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: white;
-  font-size: 17px;
-
-}
-
-.content{
-  text-align: center;
-  z-index: 1;
-  
-  
-}
-
-.content h1{
-  font-size: 160px;
-  color: #fcfbfd;
-  transition: 0.5s;
-  margin-bottom: -30px;
-
-}
-
-.content h2 {
-  font-size: 30px;
-  color: #fcfbfd;
-
-  
-}
-
-.content h1:hover {
-  -webkit-text-stroke: 2px #fcfbfd;
-  color: transparent;
-
-}
-
-.explorebutton{
-  text-decoration: none;
-  display: inline-block;
-  color: #fcfbfd;
+.homepageparagraph {
   font-size: 24px;
-  border: 2px solid #fcfbfd;
-  padding: 14px 70px;
-  border-radius: 50px;
-  margin-top: 20px;
-  transition: 1s;
-  
 }
 
-.explorebutton:hover {
-  background-color: #fcfbfd;
-  color: white;
-  transform: scale(1.2);
+
+.navbar {
+  list-style: none;
+  font-family: 'Fjalla One', sans-serif;
+  margin-right: 20px;
+
 }
 
-.back-video{
-  display: block;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index:0;
-  object-fit: cover;
-  width:100%;
-  height: 100%;
+.smallnavmenu {
+  list-style: none;
+
 }
 
-.back-video1{
-  display: none;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: 0;
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
+.smallnavmenu i {
+  font-size: 50px;
+  color: gray;
 }
 
-.logo{
-  width: 100px;
-  position: absolute;
-  bottom:10px;
-  left:20px
-  
+.submenu {
+  border: transparent;
+  font-family: 'Fjalla One', sans-serif;
 }
 
-.logo2 {
-  width: 100px;
+.submenu li a {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.submenu li a:hover {
+  color: #3bbce1;
+}
+
+
+header {
+  font-family: 'Fjalla One', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   position: fixed;
-  bottom: 10px;
-  left: 20px
+  background-color: white;
+  width: 100%;
+  border-bottom: 1px solid rgb(219, 219, 219);
+  z-index: 99999;
 }
 
-.projectnavbar{
-  margin-bottom: 75px;
+.intro h1 {
+  color: #3bbce1;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3vw;
 }
 
- .infotextcont {
-   padding-top: 150px;
-   background-color: #fcfbfd;
+.h1blue {
+  color: #3bbce1;
+}
 
 
- }
+.navbar li a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
 
- .firstinfotext {
-   font-size: 80px;
- }
+.navbar li a:hover {
+  color: #3bbce1;
+}
 
- .backcolor {
-   background-color: #fcfbfd;
- }
-
- .infobody {
-   background-color: #fcfbfd;
- }
-
+.illustration h1 {
+  font-family: 'Cabin', sans-serif;
 
 
- .secondinfotext {
-   font-size: 19px;
- }
+}
 
-@media(min-aspect-ratio:16/9){
-  .back-video{
-    height: 100%;
+.illustration h3 {
+  color: #3bbce1;
+
+}
+
+.esteticap {
+  font-size: 15px;
+}
+
+.backwallpaper {
+  background-image: url(pexels-shiny-diamond-3762402.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Cabin', sans-serif;
+
+}
+
+
+.backwallpaper div button a {
+  font-family: 'Cabin', sans-serif;
+}
+
+
+
+ANIMATION
+
+.backwallpaper button:hover {
+  background-color: #ed5ea3;
+  transition: all .4s;
+}
+
+END ANIMATION
+
+.aboutwallpaper {
+  background-image: url(pexels-shiny-diamond-3762402.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Cabin', sans-serif;
+}
+
+.teamwallpaper {
+  background-image: url(https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1600);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Cabin', sans-serif;
+}
+
+.contactwallpaper {
+
+  background-image: url(https://images.pexels.com/photos/4831/hands-coffee-smartphone-technology.jpg?auto=compress&cs=tinysrgb&w=1600);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  font-family: 'Cabin', sans-serif;
+}
+
+.backwallpaper h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 6.3vw;
+}
+
+.aboutwallpaper h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 6.3vw;
+}
+
+.aboutback {
+  background-color: #d8f2f9;
+  border-bottom: 1px solid #3bbce1;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.teamwallpaper h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 6.3vw;
+}
+
+.contactwallpaper h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 6.3vw;
+}
+
+SERVICES WALLPAPER
+.impiantologiawallpaper {
+  background-image: url(images/pexels-cedric-fauntleroy-4270094.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Cabin', sans-serif;
+}
+
+.impiantologiawallpaper h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 6.3vw;
+}
+
+.impiantologiawallpaper button:hover {
+  background-color: #ed5ea3;
+  transition: all .4s;
+}
+
+
+.esteticawallpaper {
+  background-image: url(images/esteticawallpaper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Cabin', sans-serif;
+}
+
+.esteticawallpaper h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 6.3vw;
+}
+
+.esteticawallpaper button:hover {
+  background-color: #ed5ea3;
+  transition: all .4s;
+}
+
+
+.gengivaliwallpaper {
+  background-image: url(images/gengivaliwallpaper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Cabin', sans-serif;
+}
+
+.gengivaliwallpaper h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 6.3vw;
+}
+
+.gengivaliwallpaper button:hover {
+  background-color: #ed5ea3;
+  transition: all .4s;
+}
+
+
+
+
+.zigomaticawallpaper {
+  background-image: url(images/zigomaticawallpaper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Cabin', sans-serif;
+}
+
+.zigomaticawallpaper h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 6.3vw;
+}
+
+.zigomaticawallpaper button:hover {
+  background-color: #ed5ea3;
+  transition: all .4s;
+}
+
+
+.gelwallpaper {
+  background-image: url(images/pexels-jill-burrow-6387859.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Cabin', sans-serif;
+}
+
+.gelwallpaper h1 {
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 6.3vw;
+}
+
+.gelwallpaper button:hover {
+  background-color: #ed5ea3;
+  transition: all .4s;
+}
+
+
+.ortodonziawallpaper {
+  background-image: url(images/pexels-karolina-grabowska-6627601.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Cabin', sans-serif;
+}
+
+
+.ortodonziawallpaper h1 {
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 6.3vw;
+}
+
+.ortodonziawallpaper button:hover {
+  background-color: #ed5ea3;
+  transition: all .4s;
+}
+
+
+.eccellenzawallpaper {
+  background-image: url(images/pexels-shiny-diamond-3762402.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Cabin', sans-serif;
+}
+
+.eccellenzawallpaper h1 {
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 6.3vw;
+}
+
+.eccellenzawallpaper button:hover {
+  background-color: #ed5ea3;
+  transition: all .4s;
+}
+
+
+.chirurgiawallpaper {
+  background-image: url(images/pexels-cottonbro-studio-6502029.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Cabin', sans-serif;
+}
+
+.chirurgiawallpaper h1 {
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 6.3vw;
+}
+
+.chirurgiawallpaper button:hover {
+  background-color: #ed5ea3;
+  transition: all .4s;
+}
+
+
+.allonfourwallpaper {
+  background-image: url(images/pexels-cedric-fauntleroy-4269687.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Cabin', sans-serif;
+}
+
+.allonfourwallpaper h1 {
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 6.3vw;
+}
+
+.allonfourwallpaper button:hover {
+  background-color: #ed5ea3;
+  transition: all .4s;
+}
+
+
+.otticawallpaper {
+  background-image: url(images/pexels-tima-miroshnichenko-5355829.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Cabin', sans-serif;
+}
+
+.otticawallpaper h1 {
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 6.3vw;
+}
+
+.otticawallpaper button:hover {
+  background-color: #ed5ea3;
+  transition: all .4s;
+}
+
+
+END SERVICES WALLPAPER
+
+.welcome {
+  height: 60vh;
+
+}
+
+
+.illustration {
+  margin-top: 200px;
+  margin-bottom: 150px;
+  opacity: 1;
+  transition: all .4s;
+
+}
+
+
+
+.illustration button:hover {
+  background-color: #ed5ea3;
+  transition: all .4s;
+}
+
+
+.illustration h1 {
+  font-family: 'Fjalla One', sans-serif;
+
+}
+
+.illustration h1 {
+  font-family: 'Fjalla One', sans-serif;
+
+}
+
+.illustration img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  width: 40%;
+  border: transparent;
+  background-color: #3bbce1;
+  color: white;
+  padding: 10px;
+}
+
+.footlist li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.footlist li a {
+  text-decoration: none;
+  color: black;
+}
+
+.footlist li a:hover {
+  color: #ed5ea3;
+}
+
+.imgcont {
+  gap: 60px;
+}
+
+.imgcont img {
+  border-radius: 10px;
+  width: 300px;
+  height: 250px;
+  transition: transform .5s;
+}
+
+.imgcont img:hover {
+  transform: scale(1.05);
+}
+
+.contactwallpaper {
+  height: 100vh;
+}
+
+.datecontact {
+  font-family: 'Fjalla One', sans-serif;
+
+  transition: all .4s;
+  opacity: 1;
+
+}
+
+.contactcontent {
+  padding-left: 150px;
+
+}
+
+@media screen and (max-width: 895px) {
+
+  .contactcontent {
+    padding-left: 0px;
+
+
   }
+
 }
 
-/* HOMEPAGE MEDIAQUERY  */
+@media screen and (max-width: 587px) {
 
-@media only screen and (max-width: 1571px) {
-  .content h1{
-    font-size: 130px;
+  .contactcontent {
+    padding-left: 0px;
+
+
   }
+
 }
 
-@media only screen and (max-width: 1300px) {
-  .content h1 {
-    font-size: 110px;
+@media screen and (max-width: 457px) {
+
+  .contactcontent {
+    padding-left: 0px;
+
+
   }
+
 }
 
-@media only screen and (max-width: 1100px) {
-  .content h1 {
-    font-size: 90px;
-  }
+
+.datecontact h1 {
+  font-family: 'Fjalla One', sans-serif;
+  color: #3bbce1;
+  font-size: 50px;
 }
 
-@media only screen and (max-width: 950px) {
-  .content h1 {
-    font-size: 80px;
-  }
+.datecontact i {
+  color: #3bbce1;
+  margin-right: 10px;
 }
 
-@media only screen and (max-width: 800px) {
-  .content h1 {
-    font-size: 70px;
-  }
+.datecontact p {
+  font-size: 15px;
+
 }
 
-@media only screen and (max-width: 800px) {
-  .content h1 {
-    font-size: 58px;
-  }
+.maps iframe {
+  width: 100%;
+}
 
-  .content h2{
+.footlist h4 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.footlist ul i {
+  color: #3bbce1;
+  margin-right: 10px;
+}
+
+
+.copyright {
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.finalhr {
+  color: #3bbce1;
+  height: 1px;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #3bbce1;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+.videoplay {}
+
+/*MEDIAQUERY*/
+
+@media screen and (min-width: 1730px) {
+
+  .illustration p {
     font-size: 25px;
   }
+
+  .esteticap {
+    font-size: 21px !important;
+  }
+
 }
 
-@media only screen and (max-width: 600px) {
-  .content h1 {
-    font-size: 48px;
-  }
+@media screen and (max-width: 1730px) {
 
-  .content h2 {
-      font-size: 20px;
-  }
-}
-
-@media only screen and (max-width: 507px) {
-  .content h1 {
-    font-size: 40px;
-  }
-
-    .content h2 {
-      font-size: 18px;
-    }
-}
-
-@media only screen and (max-width: 443px) {
-  .content h1 {
-    font-size: 35px;
-  }
-
-  .content h2 {
-       font-size: 14px;
-  }
-}
-
-/* PROJECT LIST MEDIAQUERY */
-
-@media only screen and (max-width: 1385px) {
-  .firstext{
-    font-size: 60px;
-    margin-right: 178px !important;
-  }
-
-  .secondtext{
-    font-size: 60px;
-  }
-}
-
-@media only screen and (max-width: 1011px) {
-  .firstext {
-    font-size: 54px;
-    margin-right: 158px !important;
-  }
-
-  .secondtext {
-    font-size: 54px;
-  }
-}
-
-@media only screen and (max-width: 925px) {
-  .firstext {
-    font-size: 48px;
-    margin-right: 143px !important;
-  }
-
-  .secondtext {
-    font-size: 48px;
-  }
-}
-
-@media only screen and (max-width: 839px) {
-  .firstext {
-    font-size: 44px;
-    margin-right: 130px !important;
-  }
-
-  .secondtext {
-    font-size: 44px;
-  }
-}
-
-@media only screen and (max-width: 759px) {
-  .firstext {
-    font-size: 40px;
-    margin-right: 118px !important;
-  }
-
-  .secondtext {
-    font-size: 40px;
-  }
-}
-
-@media only screen and (max-width: 693px) {
-  .firstext {
-    font-size: 35px;
-    margin-right: 104px !important;
-  }
-
-  .secondtext {
-    font-size: 35px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .firstext {
-    font-size: 32px;
-    margin-right: 96px !important; 
-  }
-
-  .secondtext {
-    font-size: 32px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .firstext {
-    font-size: 32px;
-    margin-right: 96px !important;
-  }
-
-  .secondtext {
-    font-size: 32px;
-  }
-}
-
-@media only screen and (max-width: 549px) {
-  .firstext {
-    font-size: 28px;
-    margin-right: 84px !important;
-  }
-
-  .secondtext {
-    font-size: 28px;
-  }
-}
-
-@media only screen and (max-width: 473px) {
-  .firstext {
-    font-size: 25px;
-    margin-right: 75px !important;
-  }
-
-  .secondtext {
+  .illustration p {
     font-size: 25px;
   }
+
+  .esteticap {
+    font-size: 19px !important;
+  }
+
 }
 
-@media only screen and (max-width: 429px) {
-  .firstext {
+@media screen and (max-width: 1600px) {
+
+  .illustration p {
+    font-size: 23px;
+  }
+
+}
+
+@media screen and (max-width: 1500px) {
+
+  .illustration p {
     font-size: 22px;
-    margin-right: 66px !important;
   }
 
-  .secondtext {
+  .esteticap {
+    font-size: 17px !important;
+  }
+
+}
+
+@media screen and (max-width: 1400px) {
+
+  .illustration p {
+    font-size: 20px;
+  }
+
+  .esteticap {
+    font-size: 16px !important;
+  }
+
+}
+
+@media screen and (max-width: 1300px) {
+
+  .illustration p {
+    font-size: 19px;
+  }
+
+  .esteticap {
+    font-size: 14px !important;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+  .illustration p {
+    font-size: 17px;
+  }
+
+}
+
+@media screen and (max-width: 1100px) {
+
+  .illustration p {
+    font-size: 19px;
+  }
+
+}
+
+@media screen and (max-width: 1020px) {
+
+  .illustration p {
+    font-size: 17.5px;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+
+  .illustration p {
+    font-size: 15px;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .illustration p {
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .illustration p {
+    font-size: 11.5px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .illustration p {
+    font-size: 20px;
+  }
+
+  .esteticap {
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+
+  .illustration p {
+    font-size: 16px;
+  }
+
+  .esteticap {
+    font-size: 18px;
+  }
+
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) and (min-width: 808px) {
+  .illustration h1 {
+    font-size: 23px;
+  }
+
+
+  .illustration h3 {
+    font-size: 18px;
+  }
+
+  .illustration button {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 808px) and (min-width: 768px) {
+  .illustration h1 {
+    font-size: 21px;
+  }
+
+
+  .illustration h3 {
+    font-size: 16px;
+  }
+
+  .illustration button {
+    width: 60%;
+  }
+}
+
+
+@media screen and (max-width: 1320px) and (min-width: 1200px) {
+  .esteticap {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (max-width: 1258px) and (min-width: 1200px) {
+  .esteticap {
+    font-size: 13px !important;
+  }
+}
+
+@media screen and (max-width: 1258px) and (min-width: 1102px) {
+  .esteticap {
+    font-size: 13px !important;
+  }
+
+  .homepageparagraph {
+    font-size: 20px;
+  }
+}
+
+
+
+@media screen and (max-width: 1102px) and (min-width: 898px) {
+  .esteticap {
+    font-size: 13px !important;
+  }
+
+  .homepageparagraph {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 898px) and (min-width: 850px) {
+  .esteticap {
+    font-size: 12px !important;
+  }
+
+  .eseticah1 {
+    font-size: 19px;
+  }
+
+  .homepageparagraph {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 850px) and (min-width: 794px) {
+  .esteticap {
+    font-size: 11.3px !important;
+  }
+
+  .eseticah1 {
+    font-size: 17px;
+  }
+
+  .homepageparagraph {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 794px) and (min-width: 768px) {
+  .esteticap {
+    font-size: 10.3px !important;
+  }
+
+  .eseticah1 {
+    font-size: 17px;
+  }
+
+  .homepageparagraph {
+    font-size: 17px;
+  }
+}
+
+/*INTRO MEDIA*/
+
+@media screen and (max-width: 989px) and (min-width: 729px) {
+  .intro {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .intro p {
+    font-size: 16px;
+  }
+
+  .intro h3 {
     font-size: 22px;
   }
+
+  .homepageparagraph {
+    font-size: 17px;
+  }
 }
 
-@media only screen and (max-width: 379px) {
-  .firstext {
+@media screen and (max-width: 729px) and (min-width: 650px) {
+  .intro {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .intro p {
+    font-size: 16px;
+  }
+
+  .intro h3 {
     font-size: 18px;
-    margin-right: 55px !important;
   }
 
-  .secondtext {
+  .homepageparagraph {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 650px) and (min-width: 465px) {
+  .intro {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .intro p {
+    font-size: 16px;
+  }
+
+  .intro h3 {
+    font-size: 18px;
+  }
+
+  .homepageparagraph {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 465px) and (min-width: 411px) {
+  .intro {
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
+
+  .intro p {
+    font-size: 16px;
+  }
+
+  .intro h3 {
+    font-size: 17px;
+  }
+
+  .homepageparagraph {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 411px) and (min-width: 351px) {
+  .intro {
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
+
+  .intro p {
+    font-size: 14px;
+  }
+
+  .intro h1 {
+    font-size: 18px;
+  }
+
+  .intro h3 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 351px) and (min-width: 0px) {
+  .intro {
+    padding-top: 220px;
+    padding-bottom: 220px;
+  }
+
+  .intro p {
+    font-size: 14px;
+  }
+
+  .intro h1 {
+    font-size: 16px;
+  }
+
+  .intro h3 {
+    font-size: 13px;
+  }
+}
+
+/*BUTTON*/
+
+@media screen and (max-width: 633px) and (min-width: 417px) {
+
+  .impiantologiawallpaper button {
+    width: 70%;
+  }
+
+  .chirurgiawallpaper button {
+    width: 70%;
+  }
+
+
+
+  .esteticawallpaper button {
+    width: 70%;
+  }
+
+
+  .gengivaliwallpaper button {
+    width: 70%;
+  }
+
+
+  .zigomaticawallpaper button {
+    width: 70%;
+  }
+
+  .gelwallpaper button {
+    width: 70%;
+  }
+
+  .ortodonziawallpaper button {
+    width: 70%;
+  }
+
+  .eccellenzawallpaper button {
+    width: 70%;
+  }
+
+  .otticawallpaper button {
+    width: 70%;
+  }
+
+  .allonfourwallpaper button {
+    width: 70%;
+  }
+
+  .contactwallpaper button {
+    width: 70%;
+  }
+
+  .ourteamwallpaper button {
+    width: 70%;
+  }
+
+  .aboutwallpaper button {
+    width: 70%;
+  }
+
+  .backwallpaper button {
+    width: 70%;
+  }
+
+}
+
+@media screen and (max-width: 417px) and (min-width: 0px) {
+
+  .impiantologiawallpaper button {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .chirurgiawallpaper button {
+    width: 100%;
+    font-size: 12px;
+  }
+
+
+
+  .esteticawallpaper button {
+    width: 100%;
+    font-size: 12px;
+  }
+
+
+  .gengivaliwallpaper button {
+    width: 100%;
+    font-size: 12px;
+  }
+
+
+  .zigomaticawallpaper button {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .gelwallpaper button {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .ortodonziawallpaper button {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .eccellenzawallpaper button {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .otticawallpaper button {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .allonfourwallpaper button {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .contactwallpaper button {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .ourteamwallpaper button {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .aboutwallpaper button {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .backwallpaper button {
+    width: 100%;
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width: 739px) and (min-width: 615px) {
+  .backwallpaper p {
     font-size: 18px;
   }
 }
 
-
-/* LOGO*/
-
-@media only screen and (max-width: 896px) {
-  .logo{
-    width: 70px;
-    position: absolute;
-    left: 5px;
-  }
-
-  .logo2 {
-          width: 70px;
-            position: fixed;
-            bottom: 10px;
-            left: 5px;
+@media screen and (max-width: 615px) and (min-width: 477px) {
+  .backwallpaper p {
+    font-size: 17px;
   }
 }
 
-/*CHANGE VIDEO*/
-
-/*@media only screen and (max-width: 896px) {
- .back-video{
-    display: none;
-    z-index:-20;
-    object-fit: none;
- }
-
- .back-video1{
-   display: block;
- }
-
-
-}*/
-
-/*INFO MEDIAQUERY*/
-
-@media only screen and (max-width: 500px) {
-  .firstinfotext{
-    font-size: 65px;
+@media screen and (max-width: 477px) and (min-width: 0px) {
+  .backwallpaper p {
+    font-size: 16px;
   }
+}
 
+
+
+ANIMATION SCROLL
+
+/*POPUP TEXT*/
+.center {
+  z-index: 100;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
 }
 
-@media only screen and (max-width: 400px) {
-  .firstinfotext {
-    font-size: 55px;
-  }
 
+
+#click {
+  display: none;
+}
+
+.click-me {
+  display: block;
+  width: 160px;
+  height: 50px;
+  background: #3bbce1;
+  border: transparent;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  line-height: 50px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.click-me:hover {
+  background: #ed5ea3;
+}
+
+.content {
+  opacity: 0;
+  visibility: hidden;
+  width: 650px;
+  height: 950px;
+  background: white;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .4);
+  z-index: 100;
+}
+
+#click:checked~.content {
+  opacity: 1;
+  visibility: visible;
+}
+
+.header {
+  height: 60px;
+  background: #3bbce1;
+  overflow: hidden;
+  border-radius: 3px 3px 0 0;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .2);
+}
+
+.header h2 {
+  color: white;
+  padding-left: 32px;
+  font-weight: normal;
+}
+
+.fa-times {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: #e8f7fc;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.fa-check {
+  font-size: 50px;
+  color: #27ae60;
+  font-weight: bold;
+  height: 80px;
+  width: 80px;
+  border: 2px solid #27ae60;
+  text-align: center;
+  padding-top: 13px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin: 30px 0 0 160px;
+}
+
+.popupcontent {
+  padding-top: 10px;
+  font-size: 19px;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.line {
+  position: absolute;
+  bottom: 60px;
+  width: 100%;
+  height: 1px;
+  background: silver;
+}
+
+.close-btn {
+  position: absolute;
+  bottom: 12px;
+  right: 25px;
+  border: 1px solid #27ae60;
+  border-radius: 3px;
+  color: #27ae60;
+  padding: 8px 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background: #27ae60;
+  color: white;
+  transition: .5s;
+}
+
+/*POPUP IMAGE*/
+
+.robertacvimage {
+  z-index: 100;
+  position: relative;
 
 }
 
-@media only screen and (max-width: 365px) {
-  .firstinfotext {
-    font-size: 45px;
-  }
 
-
+.direttsanit {
+  font-size: 12px;
 }
