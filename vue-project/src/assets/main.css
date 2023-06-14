@@ -185,9 +185,9 @@ header {
   font-size: 6.3vw;
 }
 
-SERVICES WALLPAPER
+
 .impiantologiawallpaper {
-  background-image: url(images/pexels-cedric-fauntleroy-4270094.jpg);
+  background-image: url(/pexels-cedric-fauntleroy-4270094.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -206,7 +206,7 @@ SERVICES WALLPAPER
 
 
 .esteticawallpaper {
-  background-image: url(images/esteticawallpaper.jpg);
+  background-image: url(/esteticawallpaper.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -225,7 +225,7 @@ SERVICES WALLPAPER
 
 
 .gengivaliwallpaper {
-  background-image: url(images/gengivaliwallpaper.jpg);
+  background-image: url(/gengivaliwallpaper.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -246,7 +246,7 @@ SERVICES WALLPAPER
 
 
 .zigomaticawallpaper {
-  background-image: url(images/zigomaticawallpaper.jpg);
+  background-image: url(/zigomaticawallpaper.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -265,7 +265,7 @@ SERVICES WALLPAPER
 
 
 .gelwallpaper {
-  background-image: url(images/pexels-jill-burrow-6387859.jpg);
+  background-image: url(/pexels-jill-burrow-6387859.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -285,7 +285,7 @@ SERVICES WALLPAPER
 
 
 .ortodonziawallpaper {
-  background-image: url(images/pexels-karolina-grabowska-6627601.jpg);
+  background-image: url(/pexels-karolina-grabowska-6627601.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -306,7 +306,7 @@ SERVICES WALLPAPER
 
 
 .eccellenzawallpaper {
-  background-image: url(images/pexels-shiny-diamond-3762402.jpg);
+  background-image: url(/pexels-shiny-diamond-3762402.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -326,7 +326,7 @@ SERVICES WALLPAPER
 
 
 .chirurgiawallpaper {
-  background-image: url(images/pexels-cottonbro-studio-6502029.jpg);
+  background-image: url(/pexels-cottonbro-studio-6502029.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -346,7 +346,7 @@ SERVICES WALLPAPER
 
 
 .allonfourwallpaper {
-  background-image: url(images/pexels-cedric-fauntleroy-4269687.jpg);
+  background-image: url(/pexels-cedric-fauntleroy-4269687.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -366,7 +366,7 @@ SERVICES WALLPAPER
 
 
 .otticawallpaper {
-  background-image: url(images/pexels-tima-miroshnichenko-5355829.jpg);
+  background-image: url(/pexels-tima-miroshnichenko-5355829.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;

@@ -60,7 +60,11 @@ AOS.init();
                     SERVIZI
                    </a>
                    <ul class="dropdown-menu submenu text-center p-4">
-                    <li><a class="nav-link @if(Request::route()->getName() == 'impiantologia') active @endif active" href="{{ route('impiantologia.index') }}" aria-current="page">IMPIANTOLOGIA</a></li>
+                    <li>
+                      <router-link class="text-dark" :to="{ name: 'Impiantologia' }">
+                          <a href="">IMPIANTOLOGIA</a>
+                      </router-link>
+                    </li>
                     <li><a class="nav-link @if(Request::route()->getName() == 'trattamenti-gengivali') active @endif active" href="{{ route('trattamenti-gengivali.index') }}" aria-current="page">TRATTAMENTI GENIGIVALI</a></li>
                     <li><a class="nav-link @if(Request::route()->getName() == 'estetica') active @endif active" href="{{ route('estetica.index') }}" aria-current="page">ODONTOIATRIA ESTETICA</a></li>
                     <li><a class="nav-link @if(Request::route()->getName() == 'ortodonzia') active @endif active" href="{{ route('ortodonzia.index') }}" aria-current="page">ORTODONZIA</a></li>

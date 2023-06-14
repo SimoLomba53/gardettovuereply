@@ -4,7 +4,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Homepage from '../pages/Homepage.vue'
 import OurTeam from '../pages/OurTeam.vue'
 import Info from '../pages/Info.vue'
-import Firstproject from '../pages/Firstproject.vue'
+import Impiantologia from '../pages/Impiantologia.vue'
 import Contact from '../pages/Contact.vue'
 import Thirdproject from '../pages/Thirdproject.vue'
 import Fourthproject from '../pages/Fourthproject.vue'
@@ -33,9 +33,9 @@ const router = createRouter({
       component: Info,
     },
     {
-      path: "/firstproject",
-      name: "Firstproject",
-      component: Firstproject,
+      path: "/impiantologia",
+      name: "Impiantologia",
+      component: Impiantologia,
     },
 
     {
