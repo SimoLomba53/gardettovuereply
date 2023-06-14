@@ -1229,6 +1229,66 @@ ANIMATION SCROLL
   transition: .5s;
 }
 
+.center1 {
+  z-index: 100;
+}
+
+.content1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+
+#click1 {
+  display: none;
+}
+
+.click-me1 {
+  display: block;
+  width: 160px;
+  height: 50px;
+  background: #3bbce1;
+  border: transparent;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  line-height: 50px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.click-me1:hover {
+  background: #ed5ea3;
+}
+
+.content1 {
+  opacity: 0;
+  visibility: hidden;
+  width: 650px;
+  height: 950px;
+  background: white;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .4);
+  z-index: 100;
+}
+
+#click-me1:checked~.content1 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.header1 {
+  height: 60px;
+  background: #3bbce1;
+  overflow: hidden;
+  border-radius: 3px 3px 0 0;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .2);
+}
+
 /*POPUP IMAGE*/
 
 .robertacvimage {

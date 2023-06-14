@@ -294,11 +294,11 @@
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
                  <h1 class="h1blue">Dr.ssa Maria Teresa Gallo</h1>
                  <p>Si laurea in Medicina e Chirurgia a Torino ed è specializzata in Ortodonzia.</p>
-                 <div class="center">
-                   <input type="checkbox" id="click">
-                   <label for="click" class="click-me">SCOPRI DI PIU</label>
-                   <div class="content">
-                     <div class="header d-flex align-items-center">
+                 <div class="center1">
+                   <input type="checkbox" id="click1">
+                   <label for="click" class="click-me1">SCOPRI DI PIU</label>
+                   <div class="content1">
+                     <div class="header1 d-flex align-items-center">
                        <h2><i class="fa-solid fa-circle-info"></i></h2>
                        <label for="click" class="fas fa-times"></label>
                      </div>
