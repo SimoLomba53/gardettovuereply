@@ -12,8 +12,8 @@ AOS.init();
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Document</title>
 
-        
-    
+         
+
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
           rel="stylesheet"
@@ -190,61 +190,70 @@ AOS.init();
     <body>
         
         <main>
-            <div class="col-12 gengivaliwallpaper d-flex align-items-center">
+            <div class="col-12 otticawallpaper d-flex align-items-center">
               <div class="col-8 d-flex flex-column justify-content-center p-4">
-              <h1 class="text-white fadein visible">PARODONTOLOGIA</h1>
+              <h1 class="text-white fadein visible">IMPRONTA OTTICA</h1>
+              <p class="text-white">Tridimensionale, digitale, geniale</p>
               <button><a class="nav-link @if(Request::route()->getName() == 'contact') active @endif active" href="{{ route('contact.index') }}" aria-current="page">CONTATTACI</a></button>
               </div>
            </div>
-        
-        <section>
+            <section>
            <!--PRIMA ILLUSTRAZIONE-->
            <div data-aos="fade-up" data-aos-duration="1000"  class="col-12 illustration">
              <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row">
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
-                <h1 class="h1blue">CURETTAGE GENGIVALE</h1>
-                <p>Il curettage, noto anche come levigatura radicolare, è una procedura che prevede la rimozione dell'accumulo di tartaro tra i denti e le gengive. Viene eseguito in anestesia locale. Potrebbe essere necessaria più di una sessione, a seconda della gravità della situazione.</p>
+                <h1 class="h1blue">OMNICAM 2.0</h1>
+                <p>Da sempre investiamo nelle migliori tecnologie per il tuo benessere. Ne è un esempio l’Ominicam 2.0, il macchinario che la nostra struttura impiega per il rilevamento digitale delle impronte dentali.</p>
               </div>
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                 <img src="/curatagegengivale.jpg" alt="">
+                 <img src="/ottica1.jpg" alt="">
                </div>
-            </div>
+               </div>
            </div>
            <!--SECONDA ILLUSTRAZIONE-->
             <div data-aos="fade-up" data-aos-duration="1000"  class="col-12 illustration bg-light">
              <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row  ">
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                 <img src="/innestogengivale.jpg" alt="">
+                 <img src="/ottica2.jpg" alt="">
                </div>
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mt-5 mt-sm-5 mt-md-0 mt-lg-0 mt-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
-                <h1 class="h1blue">INNESTI GENGIVALI</h1>
-                <p>Gli innesti gengivali sono consigliati quando un paziente ha uno o più denti sciolti. La procedura viene utilizzata per aggiungere tessuto gengivale dove la copertura gengivale è insufficiente. Ciò impedisce un ulteriore allentamento.</p>
+                <h1 class="h1blue">RELAX</h1>
+                <p>L’impronta ottica sostituisce in maniera definitiva le metodologie tradizionali per il rilevamento dell’impronta e viene incontro alle esigenze dei pazienti particolarmente fobici, che presentano conati di vomito esageratamente spiccati, provano stati di ansia nell’avere della pasta in bocca o addirittura attacchi di panico. Con questa nuova strumentazione, inoltre, il dentista può finalmente evitare di stoccare i calchi dei pazienti all’interno delle gipsoteche.</p>
               </div>
              </div>
            </div>
            <!--TERZA ILLUSTRAZIONE-->
             <div data-aos="fade-up" data-aos-duration="1000"  class="col-12 illustration">
-             <div data-aos="fade-up" data-aos-duration="1000" class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row">
+             <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row">
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
-                <h1 class="h1blue">ALLUNGAMENTO DELLA CORONA</h1>
-                <p>A volte un dentista desidera installare una corona su un dente, ma la struttura originale è così gravemente fratturata o cariata da non poter sostenere una corona. Quando questo è il caso, il dentista può raccomandare l'allungamento della corona. Ciò comporta il rimodellamento della gengiva e dell'osso attorno ai denti interessati fino a quando non viene rivelata una struttura dentale sufficiente.</p>
+                <h1 class="h1blue">SCANNER INTRAORALE</h1>
+                <p>L’impronta ottica viene presa per mezzo di uno scanner intraorale che, emettendo dei raggi di luce di diverso spettro, ricostruisce un volume tridimensionale. Le impronte ottenute sono elaborate in formato digitale e sono costantemente aggiornabili.</p>
               </div>
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                 <img src="/allungamentocorona.jpg" alt="">
+                 <img src="/ottica3.jpg" alt="">
                </div>
-            </div>
+               </div>
+           </div>
+           <!--QUARTA ILLUSTRAZIONE-->
+           <div data-aos="fade-up"  data-aos-duration="1000"  class="col-12 illustration bg-light">
+             <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                 <img src="/ottica4.jpg" alt="">
+               </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
+                <h1 class="h1blue">PRECISIONE ASSOLUTA</h1>
+                <p>La macchina, inoltre, ha una precisione di 5 micron e consente di effettuare delle pause durante la rilevazione, permettendo al paziente di interromperla quando preferisce. L’impasto tradizionale, invece, deve restare in posa tassativamente per un lasso di tempo non inferiore ai due minuti.</p>
+              </div>
+             </div>
            </div>
           </section>
           <hr class="text-primary">
-          </main>
-           
-
+        </main>
+        
     </body>
     </html>
 </template>
 
-<style>
-.reclametitle{
-  color: #e7e5e2;
-}
-</style>
+<style>.airbnbtitle {
+    color: #e4baa1;
+}</style>

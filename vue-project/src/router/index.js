@@ -11,6 +11,9 @@ import OdontoiatriaEstetica from '../pages/OdontoiatriaEstetica.vue'
 import Ortodonzia from '../pages/Ortodonzia.vue'
 import ChirurgiaGuidata from '../pages/ChirurgiaGuidata.vue'
 import GelPiastrinici from '../pages/GelPiastrinici.vue'
+import AllOnFour from '../pages/AllOnFour.vue'
+import Ottica from '../pages/Ottica.vue'
+import Zigomatica from '../pages/Zigomatica.vue'
 
 
 const router = createRouter({
@@ -68,6 +71,21 @@ const router = createRouter({
       path: "/gelpiastrinici",
       name: "GelPiastrinici",
       component: GelPiastrinici,
+    },
+    {
+      path: "/allonfour",
+      name: "AllOnFour",
+      component: AllOnFour,
+    },
+     {
+      path: "/ottica",
+      name: "Ottica",
+      component: Ottica,
+    },
+    {
+      path: "/zigomatica",
+      name: "Zigomatica",
+      component: Zigomatica,
     },
   ],
 });

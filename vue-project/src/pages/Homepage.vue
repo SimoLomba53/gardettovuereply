@@ -41,7 +41,9 @@ AOS.init();
       <header>
           <div class="col-12 d-flex flex-row align-items-center justify-content-between p-4">
               <div>
-                  <a class="nav-link @if(Request::route()->getName() == 'about') active @endif active" href="{{ route('about.index') }}" aria-current="page"><img class="headerlogo" src="image00012.jpeg" alt=""></a>
+                 <router-link class="text-dark" :to="{ name: 'Homepage' }">
+                  <img class="headerlogo" src="image00012.jpeg" alt="">
+                  </router-link>
               </div>
               <div>
                 <ul class="navbar flex-row gap-5 d-none d-sm-none d-md-none d-lg-flex d-xl-flex">
@@ -91,9 +93,21 @@ AOS.init();
                                     <a href="">GEL PIASTRINICI</a>
                       </router-link>
                     </li>
-                    <li><a class="nav-link @if(Request::route()->getName() == 'allonfour') active @endif active" href="{{ route('allonfour.index') }}" aria-current="page">ALL-ON-FOUR</a></li>
-                    <li><a class="nav-link @if(Request::route()->getName() == 'impronta-ottica') active @endif active" href="{{ route('impronta-ottica.index') }}" aria-current="page">IMPRONTA OTTICA</a></li>
-                    <li><a class="nav-link @if(Request::route()->getName() == 'impronta-zigomatica') active @endif active" href="{{ route('impronta-zigomatica.index') }}" aria-current="page">IMPLANTOLOGIA ZIGOMATICA</a></li>
+                    <li>
+                      <router-link class="text-dark" :to="{ name: 'AllOnFour' }">
+                                    <a href="">ALL ON FOUR</a>
+                        </router-link>
+                    </li>
+                    <li>
+                      <router-link class="text-dark" :to="{ name: 'Ottica' }">
+                            <a href="">IMPRONTA OTTICA</a>
+                      </router-link>
+                    </li>
+                    <li>
+                      <router-link class="text-dark" :to="{ name: 'Zigomatica' }">
+                                  <a href="">IMPLANTOLOGIA ZIGOMATICA</a>
+                      </router-link>
+                    </li>
                    </ul>
                   </li>
                   <li>
@@ -110,32 +124,48 @@ AOS.init();
                    </a>
                    <ul class="dropdown-menu submenu text-center">
                     <li>
-                     <a class="nav-link @if(Request::route()->getName() == 'about') active @endif active" href="{{ route('about.index') }}" aria-current="page">ABOUT</a>
+                     <router-link class="text-dark" :to="{ name: 'Info' }">
+                        <a href="">ABOUT</a>
+                      </router-link>
                     </li>
                     <li>
-                     <a class="nav-link @if(Request::route()->getName() == 'ourteam') active @endif active" href="{{ route('ourteam.index') }}" aria-current="page">IL NOSTRO TEAM</a>
+                    <router-link class="text-dark" :to="{ name: 'OurTeam' }">
+                          <a href="">IL NOSTRO TEAM</a>
+                      </router-link>
                     </li>
                     <li>
-                     <a class="nav-link @if(Request::route()->getName() == 'contact') active @endif active" href="{{ route('contact.index') }}" aria-current="page">CONTATTACI</a>
+                     <router-link class="text-dark" :to="{ name: 'Contact' }">
+                          <a href="">CONTATTACI</a>
+                      </router-link>
                     </li>
                     <hr>
                     <li>
-                      <a class="nav-link @if(Request::route()->getName() == 'impiantologia') active @endif active" href="{{ route('impiantologia.index') }}" aria-current="page">IMPIANTOLOGIA</a>
+                      <router-link class="text-dark" :to="{ name: 'Impiantologia' }">
+                            <a href="">IMPIANTOLOGIA</a>
+                        </router-link>
                     </li>
                     <li>
-                      <a class="nav-link @if(Request::route()->getName() == 'trattamenti-gengivali') active @endif active" href="{{ route('trattamenti-gengivali.index') }}" aria-current="page">TRATTAMENTI GENIGIVALI</a>
+                      <router-link class="text-dark" :to="{ name: 'TrattamentiGengivali' }">
+                              <a href="">TRATTAMENTI GENGIVALI</a>
+                        </router-link>
                     </li>
                   <li>
-                    <a class="nav-link @if(Request::route()->getName() == 'estetica') active @endif active" href="{{ route('estetica.index') }}" aria-current="page">ODONTOIATRIA ESTETICA</a>
+                    <router-link class="text-dark" :to="{ name: 'OdontoiatriaEstetica' }">
+                              <a href="">ODONTOIATRIA ESTETICA</a>
+                      </router-link>
                     </li>
                     <li>
-                      <a class="nav-link @if(Request::route()->getName() == 'ortodonzia') active @endif active" href="{{ route('ortodonzia.index') }}" aria-current="page">ORTODONZIA</a>
+                      <router-link class="text-dark" :to="{ name: 'Ortodonzia' }">
+                                  <a href="">ORTODONZIA</a>
+                        </router-link>
                     </li>
                     <!--<li>
                       <a class="nav-link @if(Request::route()->getName() == 'trattamenti-d-eccellenza') active @endif active" href="{{ route('trattamenti-d-eccellenza.index') }}" aria-current="page">TRATTAMENTI D'ECCELLENZA</a>
                     </li>-->
                     <li>
-                      <a class="nav-link @if(Request::route()->getName() == 'chirurgia') active @endif active" href="{{ route('chirurgia.index') }}" aria-current="page">CHIRURGIA GUIDATA</a>
+                      <router-link class="text-dark" :to="{ name: 'ChirurgiaGuidata' }">
+                                    <a href="">CHIRURGIA GUIDATA</a>
+                        </router-link>
                     </li>
                     <li>
                       <router-link class="text-dark" :to="{ name: 'GelPiastrinici' }">
@@ -143,14 +173,21 @@ AOS.init();
                         </router-link>
                     </li>
                     <li>
-                      <a class="nav-link @if(Request::route()->getName() == 'allonfour') active @endif active" href="{{ route('allonfour.index') }}" aria-current="page">ALL-ON-FOUR</a>
+                      <router-link class="text-dark" :to="{ name: 'AllOnFour' }">
+                                        <a href="">ALL ON FOUR</a>
+                      </router-link>
                     </li>
                     <li>
-                      <a class="nav-link @if(Request::route()->getName() == 'impronta-ottica') active @endif active" href="{{ route('impronta-ottica.index') }}" aria-current="page">IMPRONTA OTTICA</a>
-                    </li>
+                        <router-link class="text-dark" :to="{ name: 'Zigomatica' }">
+                                  <a href="">IMPLANTOLOGIA ZIGOMATICA</a>
+                        </router-link>
+                      </li>
                     <li>
-                      <a class="nav-link @if(Request::route()->getName() == 'impronta-zigomatica') active @endif active" href="{{ route('impronta-zigomatica.index') }}" aria-current="page">IMPLANTOLOGIA ZIGOMATICA</a>
+                      <router-link class="text-dark" :to="{ name: 'Ottica' }">
+                              <a href="">IMPRONTA OTTICA</a>
+                      </router-link>
                     </li>
+                    
                     </ul>
                   </li>
               </div>
@@ -249,7 +286,11 @@ AOS.init();
             <li><a class="nav-link @if(Request::route()->getName() == 'gel-piastrinici') active @endif active" href="{{ route('gel-piastrinici.index') }}" aria-current="page">Gel piastrinici</a></li>
             <li><a class="nav-link @if(Request::route()->getName() == 'allonfour') active @endif active" href="{{ route('allonfour.index') }}" aria-current="page">All-On-Four</a></li>
             <li><a class="nav-link @if(Request::route()->getName() == 'impronta-ottica') active @endif active" href="{{ route('impronta-ottica.index') }}" aria-current="page">Impronta ottica</a></li>
-            <li><a class="nav-link @if(Request::route()->getName() == 'impronta-zigomatica') active @endif active" href="{{ route('impronta-zigomatica.index') }}" aria-current="page">Implantologia zigomatica</a></li>
+            <li>
+              <router-link class="text-dark" :to="{ name: 'Zigomatica' }">
+                                  <a href="">IMPLANTOLOGIA ZIGOMATICA</a>
+              </router-link>
+            </li>
           </ul>
           </div>
            <div>

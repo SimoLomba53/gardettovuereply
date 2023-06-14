@@ -33,6 +33,162 @@ AOS.init();
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     </head>
+    <header>
+              <div class="col-12 d-flex flex-row align-items-center justify-content-between p-4">
+                  <div>
+                     <router-link class="text-dark" :to="{ name: 'Homepage' }">
+                      <img class="headerlogo" src="image00012.jpeg" alt="">
+                      </router-link>
+                  </div>
+                  <div>
+                    <ul class="navbar flex-row gap-5 d-none d-sm-none d-md-none d-lg-flex d-xl-flex">
+                      <li>
+                        <router-link class="text-dark" :to="{ name: 'Info' }">
+                          <a href="">ABOUT</a>
+                        </router-link>
+                      </li>
+                      <li>
+                        <router-link class="text-dark" :to="{ name: 'OurTeam' }">
+                            <a href="">IL NOSTRO TEAM</a>
+                        </router-link>
+                      </li>
+                      <li class="nav-item dropdown">
+                       <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        SERVIZI
+                       </a>
+                       <ul class="dropdown-menu submenu text-center p-4">
+                        <li>
+                          <router-link class="text-dark" :to="{ name: 'Impiantologia' }">
+                              <a href="">IMPIANTOLOGIA</a>
+                          </router-link>
+                        </li>
+                        <li>
+                          <router-link class="text-dark" :to="{ name: 'TrattamentiGengivali' }">
+                                <a href="">TRATTAMENTI GENGIVALI</a>
+                          </router-link>
+                        </li>
+                        <li>
+                          <router-link class="text-dark" :to="{ name: 'OdontoiatriaEstetica' }">
+                                  <a href="">ODONTOIATRIA ESTETICA</a>
+                          </router-link>
+                        </li>
+                        <li>
+                          <router-link class="text-dark" :to="{ name: 'Ortodonzia' }">
+                                    <a href="">ORTODONZIA</a>
+                          </router-link>
+                        </li>
+                        <!--<li><a class="nav-link @if(Request::route()->getName() == 'trattamenti-d-eccellenza') active @endif active" href="{{ route('trattamenti-d-eccellenza.index') }}" aria-current="page">TRATTAMENTI D'ECCELLENZA</a></li>-->
+                        <li>
+                          <router-link class="text-dark" :to="{ name: 'ChirurgiaGuidata' }">
+                                      <a href="">CHIRURGIA GUIDATA</a>
+                          </router-link>
+                        </li>
+                        <li>
+                          <router-link class="text-dark" :to="{ name: 'GelPiastrinici' }">
+                                        <a href="">GEL PIASTRINICI</a>
+                          </router-link>
+                        </li>
+                        <li>
+                          <router-link class="text-dark" :to="{ name: 'AllOnFour' }">
+                                        <a href="">ALL ON FOUR</a>
+                            </router-link>
+                        </li>
+                        <li>
+                          <router-link class="text-dark" :to="{ name: 'Ottica' }">
+                                <a href="">IMPRONTA OTTICA</a>
+                          </router-link>
+                        </li>
+                        <li>
+                          <router-link class="text-dark" :to="{ name: 'Zigomatica' }">
+                                      <a href="">IMPLANTOLOGIA ZIGOMATICA</a>
+                          </router-link>
+                        </li>
+                       </ul>
+                      </li>
+                      <li>
+                        <router-link class="text-dark" :to="{ name: 'Contact' }">
+                            <a href="">CONTATTACI</a>
+                        </router-link>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="d-block d-sm-block d-md-block d-lg-none d-xl-none">
+                  <li class="nav-item dropdown smallnavmenu">
+                       <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-bars"></i>
+                       </a>
+                       <ul class="dropdown-menu submenu text-center">
+                        <li>
+                         <router-link class="text-dark" :to="{ name: 'Info' }">
+                            <a href="">ABOUT</a>
+                          </router-link>
+                        </li>
+                        <li>
+                        <router-link class="text-dark" :to="{ name: 'OurTeam' }">
+                              <a href="">IL NOSTRO TEAM</a>
+                          </router-link>
+                        </li>
+                        <li>
+                         <router-link class="text-dark" :to="{ name: 'Contact' }">
+                              <a href="">CONTATTACI</a>
+                          </router-link>
+                        </li>
+                        <hr>
+                        <li>
+                          <router-link class="text-dark" :to="{ name: 'Impiantologia' }">
+                                <a href="">IMPIANTOLOGIA</a>
+                            </router-link>
+                        </li>
+                        <li>
+                          <router-link class="text-dark" :to="{ name: 'TrattamentiGengivali' }">
+                                  <a href="">TRATTAMENTI GENGIVALI</a>
+                            </router-link>
+                        </li>
+                      <li>
+                        <router-link class="text-dark" :to="{ name: 'OdontoiatriaEstetica' }">
+                                  <a href="">ODONTOIATRIA ESTETICA</a>
+                          </router-link>
+                        </li>
+                        <li>
+                      <router-link class="text-dark" :to="{ name: 'Ortodonzia' }">
+                                  <a href="">ORTODONZIA</a>
+                            </router-link>
+                        </li>
+                        <!--<li>
+                          <a class="nav-link @if(Request::route()->getName() == 'trattamenti-d-eccellenza') active @endif active" href="{{ route('trattamenti-d-eccellenza.index') }}" aria-current="page">TRATTAMENTI D'ECCELLENZA</a>
+                        </li>-->
+                        <li>
+                          <router-link class="text-dark" :to="{ name: 'ChirurgiaGuidata' }">
+                                        <a href="">CHIRURGIA GUIDATA</a>
+                            </router-link>
+                        </li>
+                        <li>
+                          <router-link class="text-dark" :to="{ name: 'GelPiastrinici' }">
+                                          <a href="">GEL PIASTRINICI</a>
+                            </router-link>
+                        </li>
+                        <li>
+                          <router-link class="text-dark" :to="{ name: 'AllOnFour' }">
+                                            <a href="">ALL ON FOUR</a>
+                          </router-link>
+                        </li>
+                        <li>
+                            <router-link class="text-dark" :to="{ name: 'Zigomatica' }">
+                                      <a href="">IMPLANTOLOGIA ZIGOMATICA</a>
+                            </router-link>
+                          </li>
+                        <li>
+                          <router-link class="text-dark" :to="{ name: 'Ottica' }">
+                                  <a href="">IMPRONTA OTTICA</a>
+                          </router-link>
+                        </li>
+                    
+                        </ul>
+                      </li>
+                  </div>
+    
+              </div>
+          </header>
     <body>
         
 
