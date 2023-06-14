@@ -193,7 +193,9 @@ AOS.init();
             <div class="col-12 chirurgiawallpaper d-flex align-items-center">
               <div class="col-8 d-flex flex-column justify-content-center p-4">
               <h1 class="text-white fadein visible">CHIRURGIA GUIDATA</h1>
-              <button><a class="nav-link @if(Request::route()->getName() == 'contact') active @endif active" href="{{ route('contact.index') }}" aria-current="page">CONTATTACI</a></button>
+              <router-link class="text-dark" :to="{ name: 'Contact' }">
+                                  <button>CONTATTACI</button>
+              </router-link>
               </div>
            </div>
            <section>
