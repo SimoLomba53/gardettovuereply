@@ -70,7 +70,11 @@ AOS.init();
                             <a href="">TRATTAMENTI GENGIVALI</a>
                       </router-link>
                     </li>
-                    <li><a class="nav-link @if(Request::route()->getName() == 'estetica') active @endif active" href="{{ route('estetica.index') }}" aria-current="page">ODONTOIATRIA ESTETICA</a></li>
+                    <li>
+                      <router-link class="text-dark" :to="{ name: 'OdontoiatriaEstetica' }">
+                              <a href="">ODONTOIATRIA ESTETICA</a>
+                      </router-link>
+                    </li>
                     <li><a class="nav-link @if(Request::route()->getName() == 'ortodonzia') active @endif active" href="{{ route('ortodonzia.index') }}" aria-current="page">ORTODONZIA</a></li>
                     <!--<li><a class="nav-link @if(Request::route()->getName() == 'trattamenti-d-eccellenza') active @endif active" href="{{ route('trattamenti-d-eccellenza.index') }}" aria-current="page">TRATTAMENTI D'ECCELLENZA</a></li>-->
                     <li><a class="nav-link @if(Request::route()->getName() == 'chirurgia') active @endif active" href="{{ route('chirurgia.index') }}" aria-current="page">CHIRURGIA GUIDATA</a></li>
