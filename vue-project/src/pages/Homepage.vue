@@ -200,7 +200,11 @@ AOS.init();
             <div class="col-8 d-flex flex-column justify-content-center p-4">
             <h1 class="text-white fadein visible">STUDIO DENTISTICO GARDETTO SRL</h1>
             <p class="text-white fadein visible homepageparagraph">Il nostro studio dentistico, formato da un team di professionisti appassionati, offre una vasta gamma di servizi di alta qualità per tutta la famiglia.</p>
-            <button><a class="nav-link @if(Request::route()->getName() == 'contact') active @endif active" href="{{ route('contact.index') }}" aria-current="page">CONTATTACI</a></button>
+            <router-link class="text-dark" :to="{ name: 'Contact' }">
+                          <button>CONTATTACI</button>
+            </router-link>
+            
+
             </div>
          </div>
          <div class="col-12 intro">
@@ -346,11 +350,11 @@ AOS.init();
            <div>
           <ul class="text-center">
             <h4>CONTATTACI</h4>
-            <li><i class="fa-solid fa-map-pin"></i><span>Via Trento, 7</span></li>
+            <li><span class="azzurro"><i class="fa-solid fa-location-dot "></i></span><span>Via Trento, 7</span></li>
             <li><span>San Benigno Canavese,TO</span></li>
             <li>10080</li>
-            <li><a href=""><i class="fa-solid fa-phone"></i>011 988 344</a></li>
-            <li><a href=""><i class="fa-solid fa-envelope"></i>Mail</a></li>
+            <li><a href=""><span class="azzurro"><i class="fa-solid fa-phone"></i></span>011 988 344</a></li>
+                  <li><a href=""><span class="azzurro"><i class="fa-solid fa-envelope"></i></span>Mail</a></li>
             <li><a href="">Social Network</a></li>
           </ul>
           </div>

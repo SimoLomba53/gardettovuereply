@@ -160,12 +160,12 @@ header {
 
 .backwallpaper h1 {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 6.3vw;
+  font-size: 8.5vw;
 }
 
 .aboutwallpaper h1 {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 6.3vw;
+  font-size: 8.5vw;
 }
 
 .aboutback {
@@ -177,12 +177,12 @@ header {
 
 .teamwallpaper h1 {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 6.3vw;
+  font-size: 6.5vw;
 }
 
 .contactwallpaper h1 {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 6.3vw;
+  font-size: 8.5vw;
 }
 
 
@@ -196,7 +196,7 @@ header {
 
 .impiantologiawallpaper h1 {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 6.3vw;
+  font-size: 8.5vw;
 }
 
 .impiantologiawallpaper button:hover {
@@ -215,7 +215,7 @@ header {
 
 .esteticawallpaper h1 {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 6.3vw;
+  font-size: 8.5vw;
 }
 
 .esteticawallpaper button:hover {
@@ -234,7 +234,7 @@ header {
 
 .gengivaliwallpaper h1 {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 6.3vw;
+  font-size: 8.5vw;
 }
 
 .gengivaliwallpaper button:hover {
@@ -255,7 +255,7 @@ header {
 
 .zigomaticawallpaper h1 {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 6.3vw;
+  font-size: 8.5vw;
 }
 
 .zigomaticawallpaper button:hover {
@@ -275,7 +275,7 @@ header {
 .gelwallpaper h1 {
   color: white;
   font-family: 'Fjalla One', sans-serif;
-  font-size: 6.3vw;
+  font-size: 8.5vw;
 }
 
 .gelwallpaper button:hover {
@@ -296,7 +296,7 @@ header {
 .ortodonziawallpaper h1 {
   color: white;
   font-family: 'Fjalla One', sans-serif;
-  font-size: 6.3vw;
+  font-size:8.5vw;
 }
 
 .ortodonziawallpaper button:hover {
@@ -316,7 +316,7 @@ header {
 .eccellenzawallpaper h1 {
   color: white;
   font-family: 'Fjalla One', sans-serif;
-  font-size: 6.3vw;
+  font-size: 8.5vw;
 }
 
 .eccellenzawallpaper button:hover {
@@ -336,7 +336,7 @@ header {
 .chirurgiawallpaper h1 {
   color: white;
   font-family: 'Fjalla One', sans-serif;
-  font-size: 6.3vw;
+  font-size: 8.5vw;
 }
 
 .chirurgiawallpaper button:hover {
@@ -356,7 +356,7 @@ header {
 .allonfourwallpaper h1 {
   color: white;
   font-family: 'Fjalla One', sans-serif;
-  font-size: 6.3vw;
+  font-size: 8.5vw;
 }
 
 .allonfourwallpaper button:hover {
@@ -376,7 +376,7 @@ header {
 .otticawallpaper h1 {
   color: white;
   font-family: 'Fjalla One', sans-serif;
-  font-size: 6.3vw;
+  font-size: 8.5vw;
 }
 
 .otticawallpaper button:hover {
@@ -1147,13 +1147,38 @@ ANIMATION SCROLL
   opacity: 0;
   visibility: hidden;
   width: 650px;
-  height: 950px;
+  
   background: white;
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .4);
   z-index: 100;
 }
 
 #click:checked~.content {
+  opacity: 1;
+  visibility: visible;
+}
+
+#click1:checked~.content1 {
+  opacity: 1;
+  visibility: visible;
+}
+
+#click2:checked~.content2 {
+  opacity: 1;
+  visibility: visible;
+}
+
+#click3:checked~.content3 {
+  opacity: 1;
+  visibility: visible;
+}
+
+#click4:checked~.content4 {
+  opacity: 1;
+  visibility: visible;
+}
+
+#click5:checked~.content5 {
   opacity: 1;
   visibility: visible;
 }
@@ -1168,7 +1193,7 @@ ANIMATION SCROLL
 
 .header h2 {
   color: white;
-  padding-left: 32px;
+  
   font-weight: normal;
 }
 
@@ -1229,6 +1254,8 @@ ANIMATION SCROLL
   transition: .5s;
 }
 
+/*BUTTON 1*/
+
 .center1 {
   z-index: 100;
 }
@@ -1270,7 +1297,7 @@ ANIMATION SCROLL
   opacity: 0;
   visibility: hidden;
   width: 650px;
-  height: 950px;
+  
   background: white;
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .4);
   z-index: 100;
@@ -1289,6 +1316,281 @@ ANIMATION SCROLL
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .2);
 }
 
+/*button 2*/
+.center2 {
+  z-index: 100;
+}
+
+.content2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+
+#click2 {
+  display: none;
+}
+
+.click-me2 {
+  display: block;
+  width: 160px;
+  height: 50px;
+  background: #3bbce1;
+  border: transparent;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  line-height: 50px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.click-me2:hover {
+  background: #ed5ea3;
+}
+
+.content2 {
+  opacity: 0;
+  visibility: hidden;
+  width: 650px;
+  
+  background: white;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .4);
+  z-index: 100;
+}
+
+#click-me2:checked~.content2 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.header2 {
+  height: 60px;
+  background: #3bbce1;
+  overflow: hidden;
+  border-radius: 3px 3px 0 0;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .2);
+}
+
+/*BUTTON 3*/
+
+.center3 {
+  z-index: 100;
+}
+
+.content3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+
+#click3 {
+  display: none;
+}
+
+.click-me3 {
+  display: block;
+  width: 160px;
+  height: 50px;
+  background: #3bbce1;
+  border: transparent;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  line-height: 50px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.click-me3:hover {
+  background: #ed5ea3;
+}
+
+.content3 {
+  opacity: 0;
+  visibility: hidden;
+  width: 650px;
+  
+  background: white;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .4);
+  z-index: 100;
+}
+
+#click-me3:checked~.content2 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.header3 {
+  height: 60px;
+  background: #3bbce1;
+  overflow: hidden;
+  border-radius: 3px 3px 0 0;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .2);
+}
+
+/*BUTTON 4*/
+
+.center4 {
+  z-index: 100;
+}
+
+.content4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+
+#click4 {
+  display: none;
+}
+
+.click-me4 {
+  display: block;
+  width: 160px;
+  height: 50px;
+  background: #3bbce1;
+  border: transparent;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  line-height: 50px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.click-me4:hover {
+  background: #ed5ea3;
+}
+
+.content4 {
+  opacity: 0;
+  visibility: hidden;
+  width: 650px;
+  
+  background: white;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .4);
+  z-index: 100;
+}
+
+#click-me4:checked~.content2 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.header4 {
+  height: 60px;
+  background: #3bbce1;
+  overflow: hidden;
+  border-radius: 3px 3px 0 0;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .2);
+}
+
+/*BUTTON 5*/
+
+.center5 {
+  z-index: 100;
+}
+
+.content5 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+
+#click5 {
+  display: none;
+}
+
+.click-me5 {
+  display: block;
+  width: 160px;
+  height: 50px;
+  background: #3bbce1;
+  border: transparent;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  line-height: 50px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.click-me5:hover {
+  background: #ed5ea3;
+}
+
+.content5 {
+  opacity: 0;
+  visibility: hidden;
+  width: 650px;
+  
+  background: white;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .4);
+  z-index: 100;
+}
+
+#click-me5:checked~.content2 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.header5 {
+  height: 60px;
+  background: #3bbce1;
+  overflow: hidden;
+  border-radius: 3px 3px 0 0;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .2);
+}
+
+@media screen and (max-width: 690px) {
+
+  .content{
+    width: 90%;
+  }
+
+  .content1 {
+    width: 90%;
+  }
+
+  .content2 {
+    width: 90%;
+  }
+
+  .content3 {
+  width: 90%;
+  }
+
+  .content4 {
+    width: 90%;
+  }
+
+  .content5 {
+    width: 90%;
+  }
+
+}
+
 /*POPUP IMAGE*/
 
 .robertacvimage {
@@ -1300,4 +1602,14 @@ ANIMATION SCROLL
 
 .direttsanit {
   font-size: 12px;
+}
+
+
+/*POP UP BUTTON*/
+
+/*ICON*/
+
+.azzurro{
+  color: #3bbce1;
+  padding: 10px;
 }

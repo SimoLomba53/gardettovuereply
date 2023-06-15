@@ -292,7 +292,7 @@ AOS.init();
           </main>
           <footer>
             <div>
-              <img class src="/img/kisspng-logo-dentistry-brand-blue-5bfbd76a316cb5.4880882415432313382025.png" alt="" width="100px">
+              
             </div>
             <div class="footlist d-flex flex-row flex-wrap justify-content-center gap-5  mb-5">
               <div>
@@ -366,11 +366,11 @@ AOS.init();
                <div>
               <ul class="text-center">
                 <h4>CONTATTACI</h4>
-                <li><i class="fa-solid fa-location-dot "></i><span>Via Trento, 7</span></li>
+                <li><span class="azzurro"><i class="fa-solid fa-location-dot "></i></span><span>Via Trento, 7</span></li>
                 <li><span>San Benigno Canavese,TO</span></li>
                 <li>10080</li>
-                <li><a href=""><i class="fa-solid fa-phone"></i>011 988 344</a></li>
-                <li><a href=""><i class="fa-solid fa-envelope"></i>Mail</a></li>
+                <li><a href=""><span class="azzurro"><i class="fa-solid fa-phone"></i></span>011 988 344</a></li>
+                  <li><a href=""><span class="azzurro"><i class="fa-solid fa-envelope"></i></span>Mail</a></li>
                 <li><a href="">Social Network</a></li>
               </ul>
               </div>
