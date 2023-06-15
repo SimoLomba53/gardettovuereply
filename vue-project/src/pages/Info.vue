@@ -241,7 +241,7 @@ AOS.init();
           <div>
             
           </div>
-          <div class="footlist d-flex flex-row flex-wrap justify-content-center gap-5  mb-5">
+          <div class="footlist d-flex flex-row flex-wrap justify-content-center gap-5  mb-5 p-3">
             <div>
             <ul class="text-center">
               <h4>LA CLINICA</h4>
