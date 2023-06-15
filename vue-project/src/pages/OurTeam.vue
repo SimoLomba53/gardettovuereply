@@ -222,8 +222,8 @@
                      <label for="click5" class="click-me">SCOPRI DI PIU</label>
                      <div class="content5">
                        <div class="header5 d-flex align-items-center justify-content-between p-3">
-                         <h2><i><img src="info.png" alt="" style="width: 35px;"></i></h2>
-                         <label for="click5"><img src="x.png" alt="" style="width: 35px;"></label>
+                         <h2><i><img src="/info.png" alt="" style="width: 35px;"></i></h2>
+                         <label for="click5"><img src="/x.png" alt="" style="width: 35px;"></label>
                        </div>
                        <h1 class="text-center p-2">Dott. Fulvio Gardetto</h1>
                        <p class="text-center p-2">Vincitore del Primo Premio Internazionale “Young Prosthodontist Award” ICP (International College of Prosthodontists), ad Halifax (Nova Scotia) nel 2003.Relatore in congressi nazionali, svolge attività come libero professionista con particolare interesse nell’ambito dell’Implantologia, Chirurgia Odontostomatologica ed Orale.Direttore sanitario e supervisore dello Studio omonimo.</p>
@@ -249,8 +249,8 @@
                      <label for="click4" class="click-me4">SCOPRI DI PIU</label>
                      <div class="content4">
                        <div class="header4 d-flex align-items-center justify-content-between p-3">
-                         <h2><i><img src="info.png" alt="" style="width: 35px;"></i></h2>
-                         <label for="click4"><img src="x.png" alt="" style="width: 35px;"></label>
+                         <h2><i><img src="/info.png" alt="" style="width: 35px;"></i></h2>
+                         <label for="click4"><img src="/x.png" alt="" style="width: 35px;"></label>
                        </div>
                        <h1 class="text-center p-2">Dott. Edoardo Moccia</h1>
                        <p class="text-center p-2">Ha vinto il “Premio Francesco Riitano” in occasione del congresso nazionale della Società Italiana di Endodonzia (SIE) di Bologna nel 2019.
@@ -273,8 +273,8 @@
                      <label for="click3" class="click-me3">SCOPRI DI PIU</label>
                      <div class="content3">
                        <div class="header3 d-flex align-items-center justify-content-between p-3">
-                         <h2><i><img src="info.png" alt="" style="width: 35px;"></i></h2>
-                         <label for="click3"><img src="x.png" alt="" style="width: 35px;"></label>
+                         <h2><i><img src="/info.png" alt="" style="width: 35px;"></i></h2>
+                         <label for="click3"><img src="/x.png" alt="" style="width: 35px;"></label>
                        </div>
                        <h1 class="text-center p-2">Dott. Gabriele Zanellato</h1>
                        <p class="text-center p-2">Si occupa con grande passione di igiene orale e prevenzione delle patologie orali e collabora con lo Studio Dentistico Gardetto dal 2017.Ha frequentato corsi sulla Terapia parodontale non chirurgica e sulla prevenzione della patologia cariosa, arricchendo la sua professione di nuove conoscenze e protocolli.La sua mission, fin dall’inizio, è quella di lavorare a fianco dei pazienti occupandosi della loro salute orale con le più avanzate tecnologie e con protocolli all’avanguardia.</p>
@@ -300,8 +300,8 @@
                    <label for="click" class="click-me">SCOPRI DI PIU</label>
                    <div class="content">
                      <div class="header d-flex align-items-center justify-content-between p-3">
-                       <h2><i><img src="info.png" alt="" style="width: 35px;"></i></h2>
-                       <label for="click"><img src="x.png" alt="" style="width: 35px;"></label>
+                       <h2><i><img src="/info.png" alt="" style="width: 35px;"></i></h2>
+                       <label for="click"><img src="/x.png" alt="" style="width: 35px;"></label>
                      </div>
                      <h1 class="text-center p-2">Dr.ssa Roberta Giovannini</h1>
                      <p class="text-center p-2">Laureata nel 2011 in Odontoiatria e Protesi Dentaria presso l’Università degli
@@ -335,8 +335,8 @@
                    <label for="click1" class="click-me1">SCOPRI DI PIU</label>
                    <div class="content1">
                      <div class="header1 d-flex align-items-center justify-content-between p-3">
-                       <h2><i><img src="info.png" alt="" style="width: 35px;"></i></h2>
-                       <label for="click1" ><img src="x.png" alt="" style="width: 35px;"></label>
+                       <h2><i><img src="/info.png" alt="" style="width: 35px;"></i></h2>
+                       <label for="click1" ><img src="/x.png" alt="" style="width: 35px;"></label>
                      </div>
                      <h1 class="text-center p-2">Dr.ssa Maria Teresa Gallo</h1>
                      <p class="text-center p-2">Si laurea in Medicina e Chirurgia a Torino ed è specializzata in Ortodonzia.Nello studio di famiglia e in diversi ambulatori odontoiatrici di Torino e provincia si occupa unicamente di trattamenti ortodontici sia per i bambini che adulti.Padroneggia ogni genere di trattamento ortodontico,fisso e removibile.</p>
@@ -363,8 +363,8 @@
                      <label for="click2" class="click-me2">SCOPRI DI PIU</label>
                      <div class="content2">
                        <div class="header2 d-flex align-items-center justify-content-between p-3">
-                         <h2><i><img src="info.png" alt="" style="width: 35px;"></i></h2>
-                         <label for="click2"><img src="x.png" alt="" style="width: 35px;"></label>
+                         <h2><i><img src="/info.png" alt="" style="width: 35px;"></i></h2>
+                         <label for="click2"><img src="/x.png" alt="" style="width: 35px;"></label>
                        </div>
                        <h1 class="text-center p-2">Dott. Rubens Piccionne</h1>
                        <p class="text-center p-2">Nel 2009 consegue un Master di II livello in Endodonzia, Restaurativa e Protesi fissa della durata di 2 anni presso l’Università di Siena (prof. Grandini) e negli anni successivi prosegue l’attività libero professionale specializzandosi con particolare attenzione nell’endodonzia e nei ritrattamenti endodontici. Alla pratica clinica nel settore affianca l’aggiornamento professionale teorico pratico, presso lo studio del prof. Nello Studio si occupa prevalentemente di Endodonzia e Restaurativa.</p>
