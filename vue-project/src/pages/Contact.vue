@@ -37,7 +37,7 @@ AOS.init();
               <div class="col-12 d-flex flex-row align-items-center justify-content-between p-4">
                   <div>
                      <router-link class="text-dark" :to="{ name: 'Homepage' }">
-                      <img class="headerlogo" src="image00012.jpeg" alt="">
+                      <img class="headerlogo" src="/image00012.jpeg" alt="">
                       </router-link>
                   </div>
                   <div>
