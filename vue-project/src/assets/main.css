@@ -1615,3 +1615,242 @@ ANIMATION SCROLL
   color: #3bbce1;
   padding: 10px;
 }
+
+/*phone wallpaper*/
+
+@media screen and (max-width: 782px) {
+
+    .backwallpaper h1 {
+      font-family: 'Fjalla One', sans-serif;
+      font-size: 8.5vw;
+      padding-top: 40px;
+    }
+
+    .backwallpaper p {
+          
+      font-size: 15px;
+    }
+
+  
+    .aboutwallpaper h1 {
+      font-family: 'Fjalla One', sans-serif;
+      font-size: 8.5vw;
+    }
+  
+    .aboutback {
+      background-color: #d8f2f9;
+      border-bottom: 1px solid #3bbce1;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  
+    .teamwallpaper h1 {
+      font-family: 'Fjalla One', sans-serif;
+      font-size: 6.5vw;
+    }
+  
+    .contactwallpaper h1 {
+      font-family: 'Fjalla One', sans-serif;
+      font-size: 8.5vw;
+    }
+  
+  
+    .impiantologiawallpaper {
+      background-image: url(/pexels-cedric-fauntleroy-4270094.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      font-family: 'Cabin', sans-serif;
+    }
+  
+    .impiantologiawallpaper h1 {
+      font-family: 'Fjalla One', sans-serif;
+      font-size: 8.5vw;
+    }
+  
+    .impiantologiawallpaper button:hover {
+      background-color: #ed5ea3;
+      transition: all .4s;
+    }
+  
+  
+    .esteticawallpaper {
+      background-image: url(/esteticawallpaper.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      font-family: 'Cabin', sans-serif;
+    }
+  
+    .esteticawallpaper h1 {
+      font-family: 'Fjalla One', sans-serif;
+      font-size: 8.5vw;
+    }
+  
+    .esteticawallpaper button:hover {
+      background-color: #ed5ea3;
+      transition: all .4s;
+    }
+  
+  
+    .gengivaliwallpaper {
+      background-image: url(/gengivaliwallpaper.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      font-family: 'Cabin', sans-serif;
+    }
+  
+    .gengivaliwallpaper h1 {
+      font-family: 'Fjalla One', sans-serif;
+      font-size: 8.5vw;
+    }
+  
+    .gengivaliwallpaper button:hover {
+      background-color: #ed5ea3;
+      transition: all .4s;
+    }
+  
+  
+  
+  
+    .zigomaticawallpaper {
+      background-image: url(/zigomaticawallpaper.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      font-family: 'Cabin', sans-serif;
+    }
+  
+    .zigomaticawallpaper h1 {
+      font-family: 'Fjalla One', sans-serif;
+      font-size: 8.5vw;
+    }
+  
+    .zigomaticawallpaper button:hover {
+      background-color: #ed5ea3;
+      transition: all .4s;
+    }
+  
+  
+    .gelwallpaper {
+      background-image: url(/pexels-jill-burrow-6387859.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      font-family: 'Cabin', sans-serif;
+    }
+  
+    .gelwallpaper h1 {
+      color: white;
+      font-family: 'Fjalla One', sans-serif;
+      font-size: 8.5vw;
+    }
+  
+    .gelwallpaper button:hover {
+      background-color: #ed5ea3;
+      transition: all .4s;
+    }
+  
+  
+    .ortodonziawallpaper {
+      background-image: url(/pexels-karolina-grabowska-6627601.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      font-family: 'Cabin', sans-serif;
+    }
+  
+  
+    .ortodonziawallpaper h1 {
+      color: white;
+      font-family: 'Fjalla One', sans-serif;
+      font-size: 8.5vw;
+    }
+  
+    .ortodonziawallpaper button:hover {
+      background-color: #ed5ea3;
+      transition: all .4s;
+    }
+  
+  
+    .eccellenzawallpaper {
+      background-image: url(/pexels-shiny-diamond-3762402.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      font-family: 'Cabin', sans-serif;
+    }
+  
+    .eccellenzawallpaper h1 {
+      color: white;
+      font-family: 'Fjalla One', sans-serif;
+      font-size: 8.5vw;
+    }
+  
+    .eccellenzawallpaper button:hover {
+      background-color: #ed5ea3;
+      transition: all .4s;
+    }
+  
+  
+    .chirurgiawallpaper {
+      background-image: url(/pexels-cottonbro-studio-6502029.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      font-family: 'Cabin', sans-serif;
+    }
+  
+    .chirurgiawallpaper h1 {
+      color: white;
+      font-family: 'Fjalla One', sans-serif;
+      font-size: 8.5vw;
+    }
+  
+    .chirurgiawallpaper button:hover {
+      background-color: #ed5ea3;
+      transition: all .4s;
+    }
+  
+  
+    .allonfourwallpaper {
+      background-image: url(/pexels-cedric-fauntleroy-4269687.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      font-family: 'Cabin', sans-serif;
+    }
+  
+    .allonfourwallpaper h1 {
+      color: white;
+      font-family: 'Fjalla One', sans-serif;
+      font-size: 8.5vw;
+    }
+  
+    .allonfourwallpaper button:hover {
+      background-color: #ed5ea3;
+      transition: all .4s;
+    }
+  
+  
+    .otticawallpaper {
+      background-image: url(/pexels-tima-miroshnichenko-5355829.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      font-family: 'Cabin', sans-serif;
+    }
+  
+    .otticawallpaper h1 {
+      color: white;
+      font-family: 'Fjalla One', sans-serif;
+      font-size: 8.5vw;
+    }
+  
+    .otticawallpaper button:hover {
+      background-color: #ed5ea3;
+      transition: all .4s;
+    }
+
+}
