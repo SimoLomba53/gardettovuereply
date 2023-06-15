@@ -1634,7 +1634,7 @@ ANIMATION SCROLL
   
     .aboutwallpaper h1 {
       font-family: 'Fjalla One', sans-serif;
-      font-size: 8.5vw;
+      font-size: 60px;
     }
   
     .aboutback {
@@ -1651,7 +1651,7 @@ ANIMATION SCROLL
   
     .contactwallpaper h1 {
       font-family: 'Fjalla One', sans-serif;
-      font-size: 8.5vw;
+      font-size: 50px;
     }
   
   
@@ -1665,7 +1665,7 @@ ANIMATION SCROLL
   
     .impiantologiawallpaper h1 {
       font-family: 'Fjalla One', sans-serif;
-      font-size: 8.5vw;
+      font-size: 14vw;
     }
   
     .impiantologiawallpaper button:hover {
@@ -1684,7 +1684,7 @@ ANIMATION SCROLL
   
     .esteticawallpaper h1 {
       font-family: 'Fjalla One', sans-serif;
-      font-size: 8.5vw;
+      font-size: 12vw;
     }
   
     .esteticawallpaper button:hover {
@@ -1703,7 +1703,7 @@ ANIMATION SCROLL
   
     .gengivaliwallpaper h1 {
       font-family: 'Fjalla One', sans-serif;
-      font-size: 8.5vw;
+      font-size: 12vw;
     }
   
     .gengivaliwallpaper button:hover {
@@ -1724,7 +1724,7 @@ ANIMATION SCROLL
   
     .zigomaticawallpaper h1 {
       font-family: 'Fjalla One', sans-serif;
-      font-size: 8.5vw;
+      font-size: 12vw;
     }
   
     .zigomaticawallpaper button:hover {
@@ -1744,7 +1744,7 @@ ANIMATION SCROLL
     .gelwallpaper h1 {
       color: white;
       font-family: 'Fjalla One', sans-serif;
-      font-size: 8.5vw;
+      font-size: 12vw;
     }
   
     .gelwallpaper button:hover {
@@ -1765,7 +1765,7 @@ ANIMATION SCROLL
     .ortodonziawallpaper h1 {
       color: white;
       font-family: 'Fjalla One', sans-serif;
-      font-size: 8.5vw;
+      font-size: 12vw;
     }
   
     .ortodonziawallpaper button:hover {
@@ -1785,7 +1785,7 @@ ANIMATION SCROLL
     .eccellenzawallpaper h1 {
       color: white;
       font-family: 'Fjalla One', sans-serif;
-      font-size: 8.5vw;
+      font-size: 12vw;
     }
   
     .eccellenzawallpaper button:hover {
@@ -1805,7 +1805,7 @@ ANIMATION SCROLL
     .chirurgiawallpaper h1 {
       color: white;
       font-family: 'Fjalla One', sans-serif;
-      font-size: 8.5vw;
+      font-size: 12vw;
     }
   
     .chirurgiawallpaper button:hover {
@@ -1825,7 +1825,7 @@ ANIMATION SCROLL
     .allonfourwallpaper h1 {
       color: white;
       font-family: 'Fjalla One', sans-serif;
-      font-size: 8.5vw;
+      font-size: 12vw;
     }
   
     .allonfourwallpaper button:hover {
@@ -1845,7 +1845,7 @@ ANIMATION SCROLL
     .otticawallpaper h1 {
       color: white;
       font-family: 'Fjalla One', sans-serif;
-      font-size: 8.5vw;
+      font-size: 12vw;
     }
   
     .otticawallpaper button:hover {
@@ -1854,3 +1854,20 @@ ANIMATION SCROLL
     }
 
 }
+
+@media screen and (max-width: 400px) {
+
+      .backwallpaper h1 {
+          font-family: 'Fjalla One', sans-serif;
+          font-size: 10vw;
+          padding-top: 40px;
+        }
+      
+        .backwallpaper p {
+      
+          font-size: 12px;
+        }
+
+
+}
+
