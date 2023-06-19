@@ -260,7 +260,7 @@ AOS.init();
               <h1 class="text-dark">ODONTOIATRIA ESTETICA</h1>
               <h3 class="">Hai denti disallineati, gialli o usurati?</h3>
               <p>Offriamo una serie di diversi servizi di odontoiatria estetica per correggere difetti minori e darti un sorriso radioso.</p>
-              <router-link class="text-dark" :to="{ name: 'TrattamentiGengivali' }">
+              <router-link class="text-dark" :to="{ name: 'OdontoiatriaEstetica' }">
                                 <button>SCOPRI DI PIU</button>
               </router-link>
               
