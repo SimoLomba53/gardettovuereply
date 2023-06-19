@@ -196,7 +196,7 @@ AOS.init();
             <h1 class="text-white fadein visible">IL NOSTRO STUDIO</h1>
             </div>
          </div>
-         <div class="col-12 intro">
+         <div class="col-12 intro2">
             <div data-aos="fade-up" data-aos-duration="1000"  class="welcome col-8 offset-2 d-flex flex-column justify-content-center">
             <h1 class="text-center fadein visible">LA NOSTRA MISSIONE</h1>
             <h3 class="text-center">Fornire servizi di qualità, rapidamente. Perché ogni paziente è importante per noi.</h3>

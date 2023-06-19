@@ -80,6 +80,12 @@ header {
   font-size: 3vw;
 }
 
+.intro2 h1 {
+  color: #3bbce1;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 4vw;
+}
+
 .h1blue {
   color: #3bbce1;
 }
@@ -939,6 +945,23 @@ body::-webkit-scrollbar-thumb {
   .intro h3 {
     font-size: 13px;
   }
+
+    .intro2 {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  
+    .intro2 p {
+      font-size: 14px;
+    }
+  
+    .intro2 h1 {
+      font-size: 16px;
+    }
+  
+    .intro2 h3 {
+      font-size: 13px;
+    }
 }
 
 /*BUTTON*/
@@ -1886,3 +1909,7 @@ ul{
   padding-right: 2rem;
 }
 
+.bang{
+  padding-top: 0 px !important;
+  padding-bottom: 0 px !important;
+}
