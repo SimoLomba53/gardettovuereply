@@ -192,7 +192,7 @@ AOS.init();
         <main>
             <div class="col-12 impiantologiawallpaper d-flex align-items-center">
               <div class="col-8 d-flex flex-column justify-content-center p-4">
-              <h1 class="text-white fadein visible">IMPIANTOLOGIA</h1>
+              <h1 class="text-white fadein visible">IMPLANTOLOGIA</h1>
               <router-link class="text-dark" :to="{ name: 'Contact' }">
                                   <button>CONTATTACI</button>
               </router-link>
