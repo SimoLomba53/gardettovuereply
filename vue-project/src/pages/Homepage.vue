@@ -354,7 +354,7 @@ AOS.init();
             <li><span>San Benigno Canavese,TO</span></li>
             <li>10080</li>
             <li><a href=""><span class="azzurro"><i class="fa-solid fa-phone"></i></span>011 988 3444</a></li>
-                  <li><a href=""><span class="azzurro"><i class="fa-solid fa-envelope"></i></span>studiodentisticogardetto@gmail.com</a></li>
+                  <li><a href="" class="mail"><span class="azzurro"><i class="fa-solid fa-envelope"></i></span>studiodentisticogardetto@gmail.com</a></li>
             <li><a href="">Social Network</a></li>
           </ul>
           </div>
