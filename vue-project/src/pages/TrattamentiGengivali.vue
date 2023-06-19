@@ -57,7 +57,7 @@ AOS.init();
                        <ul class="dropdown-menu submenu text-center p-4">
                         <li>
                           <router-link class="text-dark" :to="{ name: 'Impiantologia' }">
-                              <a href="">IMPIANTOLOGIA</a>
+                              <a href="">IMPLANTOLOGIA</a>
                           </router-link>
                         </li>
                         <li>
@@ -134,7 +134,7 @@ AOS.init();
                         <hr>
                         <li>
                           <router-link class="text-dark" :to="{ name: 'Impiantologia' }">
-                                <a href="">IMPIANTOLOGIA</a>
+                                <a href="">IMPLANTOLOGIA</a>
                             </router-link>
                         </li>
                         <li>
@@ -220,7 +220,7 @@ AOS.init();
                </div>
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mt-5 mt-sm-5 mt-md-0 mt-lg-0 mt-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
                 <h1 class="h1blue">INNESTI GENGIVALI</h1>
-                <p>Gli innesti gengivali sono consigliati quando un paziente ha uno o più denti sciolti. La procedura viene utilizzata per aggiungere tessuto gengivale dove la copertura gengivale è insufficiente. Ciò impedisce un ulteriore allentamento.</p>
+                <p>Gli innesti gengivali sono consigliati quando un paziente ha uno o più denti con delle recessioni. Tale procedura viene utilizzata per aumentare il tessuto gengivale, favorire la copertura radicolare, evitando una ulteriore recidiva.</p>
               </div>
              </div>
            </div>
@@ -229,7 +229,7 @@ AOS.init();
              <div data-aos="fade-up" data-aos-duration="1000" class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row">
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
                 <h1 class="h1blue">ALLUNGAMENTO DELLA CORONA</h1>
-                <p>A volte un dentista desidera installare una corona su un dente, ma la struttura originale è così gravemente fratturata o cariata da non poter sostenere una corona. Quando questo è il caso, il dentista può raccomandare l'allungamento della corona. Ciò comporta il rimodellamento della gengiva e dell'osso attorno ai denti interessati fino a quando non viene rivelata una struttura dentale sufficiente.</p>
+                <p>A volte è necessario riabilitare un dente mediante una corona, ma la struttura residua è così gravemente compromessa da non poter sostenere tale manufatto. In questi casi, il dentista può raccomandare di eseguire un allungamento della corona clinica. Ciò comporta il rimodellamento della gengiva e dell'osso attorno ai denti interessati fino a quando non viene rivelata una struttura dentale sana e resistente.</p>
               </div>
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                  <img src="/allungamentocorona.jpg" alt="">

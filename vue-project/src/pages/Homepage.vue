@@ -65,7 +65,7 @@ AOS.init();
                    <ul class="dropdown-menu submenu text-center p-4">
                     <li>
                       <router-link class="text-dark" :to="{ name: 'Impiantologia' }">
-                          <a href="">IMPIANTOLOGIA</a>
+                          <a href="">IMPLANTOLOGIA</a>
                       </router-link>
                     </li>
                     <li>
@@ -142,7 +142,7 @@ AOS.init();
                     <hr>
                     <li>
                       <router-link class="text-dark" :to="{ name: 'Impiantologia' }">
-                            <a href="">IMPIANTOLOGIA</a>
+                            <a href="">IMPLANTOLOGIA</a>
                         </router-link>
                     </li>
                     <li>
@@ -257,7 +257,7 @@ AOS.init();
           <div data-aos="fade-up" data-aos-duration="1000" class="col-12 illustration">
            <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row">
              <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
-              <h1 class="text-dark">ODONTIATRIA ESTETICA</h1>
+              <h1 class="text-dark">ODONTOIATRIA ESTETICA</h1>
               <h3 class="">Hai denti disallineati, gialli o usurati?</h3>
               <p>Offriamo una serie di diversi servizi di odontoiatria estetica per correggere difetti minori e darti un sorriso radioso.</p>
               <router-link class="text-dark" :to="{ name: 'TrattamentiGengivali' }">

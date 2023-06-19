@@ -58,7 +58,7 @@ AOS.init();
                      <ul class="dropdown-menu submenu text-center p-4">
                       <li>
                         <router-link class="text-dark" :to="{ name: 'Impiantologia' }">
-                            <a href="">IMPIANTOLOGIA</a>
+                            <a href="">IMPLANTOLOGIA</a>
                         </router-link>
                       </li>
                       <li>
@@ -135,7 +135,7 @@ AOS.init();
                       <hr>
                       <li>
                         <router-link class="text-dark" :to="{ name: 'Impiantologia' }">
-                              <a href="">IMPIANTOLOGIA</a>
+                              <a href="">IMPLANTOLOGIA</a>
                           </router-link>
                       </li>
                       <li>
@@ -200,8 +200,8 @@ AOS.init();
             <div data-aos="fade-up" data-aos-duration="1000"  class="welcome col-8 offset-2 d-flex flex-column justify-content-center">
             <h1 class="text-center fadein visible">LA NOSTRA MISSIONE</h1>
             <h3 class="text-center">Fornire servizi di qualità, rapidamente. Perché ogni paziente è importante per noi.</h3>
-            <p class="fadein visible">Il nostro studio odontoiatrico fornisce cure dentistiche di qualità per tutta la famiglia dal 2001. Sia che tu abbia bisogno di una pulizia dentale regolare o di un intervento chirurgico complesso, sei in buone mani con il Dr. Fulvio Gardetto e il suo team esperto. Siamo orgogliosi di offrire un ambiente caldo e accogliente e di rendere ogni appuntamento il più piacevole possibile.</p>
-            <p>Il nostro studio è dotato di attrezzature all'avanguardia, tra cui una telecamera intraorale, microscopio, raggi X digitali, VELscope (per la rilevazione del cancro orale), Periowave e laser (per i trattamenti gengivali).</p>
+            <p class="fadein visible">Il nostro Studio fornisce cure dentistiche di qualità per tutta la famiglia, è dotato di attrezzature all'avanguardia e di ultima generazione.</p>
+            <p>Siamo orgogliosi di offrire un ambiente caldo e accogliente e di rendere ogni appuntamento il più piacevole possibile</p>
             </div>
          </div>
        

@@ -57,7 +57,7 @@ AOS.init();
                        <ul class="dropdown-menu submenu text-center p-4">
                         <li>
                           <router-link class="text-dark" :to="{ name: 'Impiantologia' }">
-                              <a href="">IMPIANTOLOGIA</a>
+                              <a href="">IMPLANTOLOGIA</a>
                           </router-link>
                         </li>
                         <li>
@@ -134,7 +134,7 @@ AOS.init();
                         <hr>
                         <li>
                           <router-link class="text-dark" :to="{ name: 'Impiantologia' }">
-                                <a href="">IMPIANTOLOGIA</a>
+                                <a href="">IMPLANTOLOGIA</a>
                             </router-link>
                         </li>
                         <li>
@@ -219,8 +219,8 @@ AOS.init();
                  <img src="/allonfour2.jpg" alt="">
                </div>
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mt-5 mt-sm-5 mt-md-0 mt-lg-0 mt-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
-                <h1 class="h1blue">IN SOLI 2 GIORNI</h1>
-                <p>La protesi dell’intera arcata poggia su quattro impianti, si tratta perciò di una soluzione minimamente invasiva che riduce il numero di sedute necessarie all’installazione e ci permette di restituirti il sorriso anche se sei del tutto privo di denti in appena due giorni, grazie all’uso combinato della chirurgia guidata.</p>
+                <h1 class="h1blue">IN POCHE ORE</h1>
+                <p>La protesi dell’intera arcata poggia su quattro impianti, si tratta perciò di una soluzione minimamente invasiva che riduce il numero di sedute necessarie all’installazione e ci permette di restituirti il sorriso anche se sei del tutto privo di denti in poche ore, grazie all’uso combinato della chirurgia guidata.</p>
               </div>
              </div>
            </div>

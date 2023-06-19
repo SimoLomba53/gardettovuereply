@@ -70,7 +70,7 @@
                         <ul class="dropdown-menu submenu text-center p-4">
                          <li>
                            <router-link class="text-dark" :to="{ name: 'Impiantologia' }">
-                               <a href="">IMPIANTOLOGIA</a>
+                               <a href="">IMPLANTOLOGIA</a>
                            </router-link>
                          </li>
                          <li>
@@ -147,7 +147,7 @@
                          <hr>
                          <li>
                            <router-link class="text-dark" :to="{ name: 'Impiantologia' }">
-                                 <a href="">IMPIANTOLOGIA</a>
+                                 <a href="">IMPLANTOLOGIA</a>
                              </router-link>
                          </li>
                          <li>

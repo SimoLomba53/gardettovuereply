@@ -57,7 +57,7 @@ AOS.init();
                        <ul class="dropdown-menu submenu text-center p-4">
                         <li>
                           <router-link class="text-dark" :to="{ name: 'Impiantologia' }">
-                              <a href="">IMPIANTOLOGIA</a>
+                              <a href="">IMPLANTOLOGIA</a>
                           </router-link>
                         </li>
                         <li>
@@ -134,7 +134,7 @@ AOS.init();
                         <hr>
                         <li>
                           <router-link class="text-dark" :to="{ name: 'Impiantologia' }">
-                                <a href="">IMPIANTOLOGIA</a>
+                                <a href="">IMPLANTOLOGIA</a>
                             </router-link>
                         </li>
                         <li>
@@ -218,7 +218,7 @@ AOS.init();
              <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row  ">
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mt-5 mt-sm-5 mt-md-0 mt-lg-0 mt-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
                 <h1 class="h1blue">DENTE DEL GIUDIZIO</h1>
-                <p>Se non c'è abbastanza spazio in bocca, i denti del giudizio possono essere parzialmente o completamente inclusi. Questo può causare tutti i tipi di problemi. Il tuo dentista può scegliere di monitorare i tuoi denti del giudizio o raccomandare di rimuoverli.</p>
+                <p>Se non c'è abbastanza spazio in bocca, i denti del giudizio possono essere parzialmente o completamente inclusi. Questo può causare diversi tipi di problemi. Il tuo dentista può scegliere di monitorare i tuoi denti del giudizio o raccomandare di rimuoverli.</p>
               </div>
               <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                  <img src="/dentedelgiudizio.jpg" alt="">
@@ -233,7 +233,7 @@ AOS.init();
                </div>
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
                 <h1 class="h1blue">INNESTI OSSEI</h1>
-                <p>L'innesto osseo viene utilizzato per aggiungere osso alle aree della mascella dove non c'è abbastanza osso. Questa procedura è raccomandata per i pazienti che non hanno una massa ossea sufficiente.</p>
+                <p>L'innesto osseo viene utilizzato per aggiungere osso alle aree della mascella dove non ce n'è abbastanza. Questa procedura è raccomandata per i pazienti che non hanno una massa ossea sufficiente.</p>
               </div>
             </div>
            </div>
@@ -241,8 +241,8 @@ AOS.init();
            <div data-aos="fade-up" data-aos-duration="1000"  class="col-12 illustration bg-light">
              <div data-aos="fade-up" data-aos-duration="1000" class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row">
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
-                <h1 class="h1blue">RIALZI DEL SINUS</h1>
-                <p>Alcune persone non hanno abbastanza massa mascellare per supportare gli impianti dentali. Se questo è il caso, il dentista può consigliare un rialzo del sinus mascellare.</p>
+                <h1 class="h1blue">RIALZI DEL SENO</h1>
+                <p>Alcune persone non hanno abbastanza massa mascellare per supportare gli impianti dentali. Se questo è il caso, il dentista può consigliare un rialzo del seno mascellare.</p>
                 <p>La procedura prevede il sollevamento del sinus e quindi l'innesto dell'osso sulla parte della mascella superiore dove l'osso si è assottigliato. Pochi mesi dopo l'innesto, sarai pronto per l'installazione di un impianto dentale.</p>
               </div>
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
@@ -257,8 +257,8 @@ AOS.init();
                  <img src="/denterosso.jpg" alt="">
                </div>
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mt-5 mt-sm-5 mt-md-0 mt-lg-0 mt-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
-                <h1 class="h1blue">APICETOMIA</h1>
-                <p>Il trattamento del canale radicolare a volte fallisce e l'infezione che colpisce la radice del dente persiste. Se ciò accade, il tuo dentista può eseguire un'apicectomia per salvare il dente problematico. La punta della radice e il tessuto infetto vengono rimossi. Un sigillante viene utilizzato per sigillare l'estremità della radice.</p>
+                <h1 class="h1blue">APICECTOMIA</h1>
+                <p>Il trattamento del canale radicolare a volte fallisce e l'infezione che colpisce la radice del dente persiste. Se ciò accade, il tuo dentista può eseguire un'apicectomia per salvare il dente problematico, il cui apice e il tessuto infetto vengono rimossi e un sigillante viene utilizzato all'estremità della radice.</p>
               </div>
             </div>
            </div>
@@ -267,7 +267,7 @@ AOS.init();
              <div data-aos="fade-up" data-aos-duration="1000" class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row">
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
                 <h1 class="h1blue">BIOPSIA</h1>
-                <p>Una biopsia è una procedura minore che comporta la rimozione di un campione di tessuto dalla bocca. Può essere utilizzato per scopi di screening o per diagnosticare alcune malattie, incluso il cancro alla bocca. Il campione viene quindi inviato per l'analisi.</p>
+                <p>Una biopsia è una procedura minore che comporta la rimozione di un campione di tessuto dalla bocca. Può essere utilizzata per scopi di screening o per diagnosticare alcune malattie. Il campione viene quindi inviato per l'analisi.</p>
               </div>
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                  <img src="/biopsia.jpg" alt="">
@@ -282,7 +282,7 @@ AOS.init();
                </div>
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mt-5 mt-sm-5 mt-md-0 mt-lg-0 mt-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
                 <h1 class="h1blue">CHIRURGIA ESPLORATIVA</h1>
-                <p>A volte è difficile sapere cosa sta causando un problema di salute orale, anche se si eseguono radiografie. La chirurgia esplorativa consente al tuo dentista di guardare sotto il bordo gengivale per fare una diagnosi accurata e determinare il miglior corso di trattamento.</p>
+                <p>A volte è difficile sapere cosa sta causando un problema di salute orale, anche se si eseguono radiografie. La chirurgia esplorativa consente al tuo dentista di guardare sotto il bordo gengivale per fare una diagnosi accurata e suggerire il trattamento più adatto.</p>
               </div>
             </div>
            </div>

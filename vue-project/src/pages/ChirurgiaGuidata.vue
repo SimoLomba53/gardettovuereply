@@ -57,7 +57,7 @@ AOS.init();
                        <ul class="dropdown-menu submenu text-center p-4">
                         <li>
                           <router-link class="text-dark" :to="{ name: 'Impiantologia' }">
-                              <a href="">IMPIANTOLOGIA</a>
+                              <a href="">IMPLANTOLOGIA</a>
                           </router-link>
                         </li>
                         <li>
@@ -134,7 +134,7 @@ AOS.init();
                         <hr>
                         <li>
                           <router-link class="text-dark" :to="{ name: 'Impiantologia' }">
-                                <a href="">IMPIANTOLOGIA</a>
+                                <a href="">IMPLANTOLOGIA</a>
                             </router-link>
                         </li>
                         <li>
@@ -219,7 +219,7 @@ AOS.init();
                </div>
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mt-5 mt-sm-5 mt-md-0 mt-lg-0 mt-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
                 <h1 class="h1blue">TECNOLOGIA AVANZATA</h1>
-                <p>Con l’utilizzo di un software specifico, siamo in grado di elaborare la scansione delle tue arcate dentarie e simulare in anticipo e in dettaglio tutte le fasi dell’intervento di implantologia, incluso rilevare la densità ossea e stabilire il posizionamento dei tuoi nuovi denti. In seguito, sulla base della nostra pianificazione, costruiamo una guida chirurgica che ci permetterà di collocare l’impianto o gli impianti nella specifica posizione individuata dal software e realizziamo i denti che andremo a inserire.</p>
+                <p>Con l’utilizzo di un software specifico, siamo in grado di elaborare la scansione delle tue arcate dentarie e simulare in anticipo e in dettaglio tutte le fasi dell’intervento di implantologia, incluso rilevare la densità ossea e stabilire il posizionamento dei tuoi nuovi denti. In seguito, sulla base della nostra pianificazione, costruiamo una guida chirurgica che ci permetterà di collocare l’impianto o gli impianti nella specifica posizione individuata dal software.</p>
               </div>
              </div>
            </div>

@@ -59,7 +59,7 @@ AOS.init();
                        <ul class="dropdown-menu submenu text-center p-4">
                         <li>
                           <router-link class="text-dark" :to="{ name: 'Impiantologia' }">
-                              <a href="">IMPIANTOLOGIA</a>
+                              <a href="">IMPLANTOLOGIA</a>
                           </router-link>
                         </li>
                         <li>
@@ -136,7 +136,7 @@ AOS.init();
                         <hr>
                         <li>
                           <router-link class="text-dark" :to="{ name: 'Impiantologia' }">
-                                <a href="">IMPIANTOLOGIA</a>
+                                <a href="">IMPLANTOLOGIA</a>
                             </router-link>
                         </li>
                         <li>
@@ -200,15 +200,14 @@ AOS.init();
          <div data-aos="fade-up" data-aos-duration="1000" class="datecontact d-flex flex-column p-5 justify-content-center">
             <div class="contactcontent">
             <h1>STUDIO DENTISTICO GARDETTO SRL</h1>
-            <p>Situato a due passi da Piazza Italia.</p>
             <p><span class="azzurro"><i class="fa-solid fa-location-dot "></i></span>Via Trento, 7, 10080 San Benigno Canavese TO</p>
-            <p><span class="azzurro"><i class="fa-solid fa-phone"></i></span>011 988 344</p>
-            <p><span class="azzurro"><i class="fa-solid fa-envelope"></i></span>Mail</p>
-            <p>Social Network</p>
+            <p><span class="azzurro"><i class="fa-solid fa-phone"></i></span>011 988 3444</p>
+            <p><span class="azzurro"><i class="fa-solid fa-envelope"></i></span>studiodentisticogardetto@gmail.com</p>
+            
             <p class="direttsanit">PI: 12318790016</p>
             <p class="direttsanit">Numero REA: TO-1280907</p>
  
-            <p class="direttsanit">Direttore sanitario </p>
+            <p class="direttsanit">Direttore sanitario : </p>
             <p class="direttsanit">Dr Fulvio Gardetto iscrizione Ordine Medici Chirurghi e Odontoiatri di Torino n: 2365</p>
 
             <p class="direttsanit"> Autorizzazione Sanitaria N. 1/2021 Prot. N. 1183 del 01/02/2021</p>
