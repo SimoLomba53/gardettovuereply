@@ -1112,11 +1112,19 @@ body::-webkit-scrollbar-thumb {
   .backwallpaper p {
     font-size: 18px;
   }
+
+  .intro h1{
+    font-size: 40px;
+  }
 }
 
 @media screen and (max-width: 615px) and (min-width: 477px) {
   .backwallpaper p {
     font-size: 17px;
+  }
+
+  .intro h1 {
+      font-size: 30px;
   }
 
   .intro2{
@@ -1128,6 +1136,10 @@ body::-webkit-scrollbar-thumb {
 @media screen and (max-width: 477px) and (min-width: 0px) {
   .backwallpaper p {
     font-size: 16px;
+  }
+
+  .intro h1 {
+      font-size: 20px;
   }
 
   .intro2 {
