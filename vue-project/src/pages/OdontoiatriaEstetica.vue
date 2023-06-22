@@ -206,8 +206,9 @@ AOS.init();
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
                 <h1 class="h1blue esteticah1">SBIANCAMENTO DEI DENTI</h1>
                 <p class="esteticap">Ricordi quando avevi un sorriso smagliante? Lo sbiancamento dei denti può aiutarti a sorridere di nuovo con fiducia! Il nostro studio dentale offre ai pazienti 2 opzioni di sbiancamento dei denti:</p>
-                <p class="esteticap"><span class="fw-bold esteticap">Sbiancamento dei denti a casa:</span> Riceverai un kit con mascherine personalizzate gel sbiancante. Il trattamento può essere effettuato a casa per alcune settimane.</p>
-                <p class="esteticap"><span class="fw-bold esteticap">Sbiancamento dei denti in studio:</span> Questo trattamento viene eseguito sotto la supervisione del dentista e può illuminare efficacemente il tuo sorriso in una singola sessione.</p>
+                <p class="esteticap"><span class="fw-bold esteticap">Sbiancamento domiciliare:</span> Riceverai un kit con mascherine personalizzate gel sbiancante. Il trattamento può essere effettuato a casa per alcune settimane.</p>
+                <p class="esteticap"><span class="fw-bold esteticap">Sbiancamento combinato:</span> Per un risultato ancora più splendente sarà effettuata una seduta in studio di sbiancamento professionale, sotto la supervisione dell'igenista dentale. Successivamente verrà consegnato il kit domiciliare con mascherine personalizzate,che utilizzerai per alcune settimane.</p>
+                <p class="esteticap">Entrambe queste tipologie di sbiancamento hanno lunga durata, e possono essere ripetute nel tempo con costi ridotti.</p>
               </div>
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                  <img src="/sbiancamento.jpg" alt="">

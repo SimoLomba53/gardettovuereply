@@ -210,8 +210,8 @@ AOS.init();
          <div class="col-12 intro">
             <div data-aos="fade-up" data-aos-duration="1000" class="welcome col-8 offset-2 d-flex flex-column justify-content-center">
             <h1 class="text-center fadein visible">BENVENUTO NEL TUO STUDIO ODONTOIATRICO!</h1>
-            <p class="fadein visible"><b>Esperienza ventennale</b> , aggiornamento costante e rigore professionale: questo è lo <b>Studio Dentistico Gardetto SRL</b> a San Benigno Canavese(a pochi km da Torino).</p>
-            <p><b>Professionisti</b> che uniscono diverse competenze e saperi, votata alla bellezza e alla salute del vostro sorriso,<b>quattro ambulatori</b> attrezzati con strumentazioni specifiche per ogni particolare trattamento, le più <b>moderne tecnologie</b> in campo odontoiatrico per operare con assoluta precisione ed efficacia, la più totale igiene e sterilità degli ambienti e degli strumenti, l’<b>alta competenza</b> nell’offerta dei migliori servizi per la salute orale dei nostri pazienti.</p>
+            <p class="fadein visible"><b>Esperienza ventennale</b>, aggiornamento costante e rigore professionale: questo è lo <b>Studio Dentistico Gardetto SRL</b> a San Benigno Canavese (a pochi km da Torino).</p>
+            <p><b>Professionisti</b> che uniscono diverse competenze e saperi, votata alla bellezza e alla salute del vostro sorriso, <b>quattro ambulatori</b> attrezzati con strumentazioni specifiche per ogni particolare trattamento, le più <b>moderne tecnologie</b> in campo odontoiatrico per operare con assoluta precisione ed efficacia, la più totale igiene e sterilità degli ambienti e degli strumenti, l’<b>alta competenza</b> nell’offerta dei migliori servizi per la salute orale dei nostri pazienti.</p>
             <p>Lo Studio Dentistico Gardetto è tutto questo, garantendo sempre la massima cortesia e discrezione nel miglior comfort possibile per il paziente.</p>
             </div>
          </div>

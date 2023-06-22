@@ -205,7 +205,7 @@ AOS.init();
              <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row">
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
                 <h1 class="h1blue">OMNICAM 2.0</h1>
-                <p>Da sempre investiamo nelle migliori tecnologie per il tuo benessere. Ne è un esempio l’Ominicam 2.0, il macchinario che la nostra struttura impiega per il rilevamento digitale delle impronte dentali.</p>
+                <p>Da sempre investiamo nelle migliori tecnologie per il tuo benessere. Ne è un esempio l’Ominicam 2.0, lo strumento che la nostra struttura impiega per il rilevamento digitale delle impronte dentali.</p>
               </div>
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                  <img src="/ottica1.jpg" alt="">

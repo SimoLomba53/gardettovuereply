@@ -228,7 +228,7 @@ AOS.init();
              <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row">
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
                 <h1 class="h1blue">INNESTI OSSEI</h1>
-                <p>Il materiale così ottenuto, ricavato proprio da te, viene applicato sulla zona interessata e riesce a stimolare e velocizzare la guarigione post-intervento, riducendo la tua sensazione di dolore e garantendo una miglior presa ad esempio in caso di impianto dentale.Contattaci per conoscere nel dettaglio i nostri trattamenti professionali con gel piastrinici.</p>
+                <p>Il materiale così ottenuto, ricavato proprio da te, viene applicato sulla zona interessata e riesce a stimolare e velocizzare la guarigione post-intervento, riducendo la tua sensazione di dolore e garantendo una miglior presa ad esempio in caso di impianto dentale. Contattaci per conoscere nel dettaglio i nostri trattamenti professionali con gel piastrinici.</p>
               </div>
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                  <img src="/pgrf3.jpg" alt="">
