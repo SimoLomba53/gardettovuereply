@@ -229,7 +229,7 @@ AOS.init();
              <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row">
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
                 <h1 class="h1blue">SCANNER INTRAORALE</h1>
-                <p>L’impronta ottica viene presa per mezzo di uno scanner intraorale che, emettendo dei raggi di luce di diverso spettro, ricostruisce un volume tridimensionale. Le impronte ottenute sono elaborate in formato digitale e sono costantemente aggiornabili.</p>
+                <p>L’impronta ottica viene presa per mezzo di uno scanner intraorale che, emettendo dei raggi di luce di diverso spettro, ricostruisce un volume tridimensionale. Le impronte ottenute sono elaborate in formato digitale e sono costantemente aggiornabili, inoltre è possibile integrare i dati con quelli 3D ottenuti dalla CBCT (TAC) per avere una visione globale di tutte le strutture anatomiche di nostro interesse e progettare virtualmente gli obiettivi che si vogliono ottenere.</p>
               </div>
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                  <img src="/ottica3.jpg" alt="">
