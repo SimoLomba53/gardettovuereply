@@ -226,7 +226,7 @@
                          <label for="click5"><img src="/x.png" alt="" style="width: 35px;"></label>
                        </div>
                        <h1 class="text-center p-2">Dott. Fulvio Gardetto</h1>
-                       <p class="text-center p-2">Vincitore del Primo Premio Internazionale “Young Prosthodontist Award” ICP (International College of Prosthodontists), ad Halifax (Nova Scotia) nel 2003.Relatore in congressi nazionali, svolge attività come libero professionista con particolare interesse nell’ambito dell’Implantologia, Chirurgia Odontostomatologica ed Orale.Direttore sanitario e supervisore dello Studio omonimo.</p>
+                       <p class="text-center p-2">Vincitore del Primo Premio Internazionale “Young Prosthodontist Award” ICP (International College of Prosthodontists), ad Halifax (Nova Scotia) nel 2003. Relatore in congressi nazionali, svolge attività come libero professionista con particolare interesse nell’ambito dell’Implantologia, Chirurgia Odontostomatologica ed Orale. Direttore sanitario e supervisore dello Studio omonimo.</p>
                      </div>
                    </div>
                </div>
