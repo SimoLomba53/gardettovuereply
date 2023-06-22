@@ -277,7 +277,7 @@
                          <label for="click3"><img src="/x.png" alt="" style="width: 35px;"></label>
                        </div>
                        <h1 class="text-center p-2">Dott. Gabriele Zanellato</h1>
-                       <p class="text-center p-2">Si occupa con grande passione di igiene orale e prevenzione delle patologie orali e collabora con lo Studio Dentistico Gardetto dal 2017.Ha frequentato corsi sulla Terapia parodontale non chirurgica e sulla prevenzione della patologia cariosa, arricchendo la sua professione di nuove conoscenze e protocolli.La sua mission, fin dall’inizio, è quella di lavorare a fianco dei pazienti occupandosi della loro salute orale con le più avanzate tecnologie e con protocolli all’avanguardia.</p>
+                       <p class="text-center p-2">Si occupa con grande passione di igiene orale e prevenzione delle patologie orali e collabora con lo Studio Dentistico Gardetto dal 2017.Ha frequentato corsi sulla Terapia parodontale non chirurgica e sulla prevenzione della patologia cariosa, arricchendo la sua professione di nuove conoscenze e protocolli.La sua mission, fin dall’inizio, è quella di lavorare a fianco dei pazienti occupandosi della loro salute orale con le più avanzate tecnologie e con protocolli all’avanguardia. Ottime doti gestionali ed organizzative, elevata flessibilità e capacità di adattamento particolare propensione al lavoro di gruppo e alla collaborazione con le diverse figure professionali. Buona padronanza della macchina fotografica e del suo utilizzo per foto intra-orali extra-orali. Padronanza di utilizzo delle apparecchiature per la sedazione cosciente del paziente mediante il protossido d’azoto ed apparecchiature laser. Utilizzo di sistemi di ingrandimento ottici x3.8</p>
                      </div>
                    </div>
                 </div>
@@ -304,21 +304,7 @@
                        <label for="click"><img src="/x.png" alt="" style="width: 35px;"></label>
                      </div>
                      <h1 class="text-center p-2">Dr.ssa Roberta Giovannini</h1>
-                     <p class="text-center p-2">Laureata nel 2011 in Odontoiatria e Protesi Dentaria presso l’Università degli
-                     studi di Torino con la tesi “Clinical prospective study on the post-operative
-                     sensitivity in patients with deep carious lesions: Total-etch vs Self-etch
-                     adhesives systems.” con punteggio 108/110 e dignità di stampa.
-                     Dal 2011 al 2018 frequentatore e tutor presso il reparto di Endodonzia e
-                     Conservativa diretto dal Prof. Elio Berutti dove ha collaborato a diversi lavori
-                     di ricerca con particolare interesse nella longevità dei restauri conservativi,
-                     degradazione delle resine composite e nei vari approcci di rimozione della
-                     carie.
-                     Dal 2016 al 2018 ha conseguito il Master universitario di II livello in Protesi ed
-                     Implantoprotesi con tecnologie avanzate presso l’Università di Bologna.
-                     In continuo aggiornamento, partecipa regolarmente a congressi e corsi
-                     teorico-pratici.
-                     Nella sua pratica clinica si occupa prevalentemente di Odontoiatria
-                     Restaurativa estetica, Endodonzia, Pedodonzia e Protesi.</p>
+                     <p class="text-center p-2">Laureata nel 2011 in Odontoiatria e Protesi Dentaria presso l’Università degli studi di Torino con la tesi “Clinical prospective study on the post-operative sensitivity in patients with deep carious lesions: Total-etch vs Self-etch adhesives systems.” con punteggio 108/110 e dignità di stampa. Dal 2011 al 2018 frequentatore e tutor presso il reparto di Endodonzia e Conservativa diretto dal Prof. Elio Berutti dove ha collaborato a diversi lavori di ricerca con particolare interesse nella longevità dei restauri conservativi, degradazione delle resine composite e nei vari approcci di rimozione della carie. Dal 2016 al 2018 ha conseguito il Master universitario di II livello in Protesi ed Implantoprotesi con tecnologie avanzate presso l’Università di Bologna. In continuo aggiornamento, partecipa regolarmente a congressi e corsi teorico-pratici. Nella sua pratica clinica si occupa prevalentemente di Odontoiatria Restaurativa estetica, Endodonzia, Pedodonzia e Protesi.</p>
                    </div>
                  </div>
                </div>
@@ -367,7 +353,7 @@
                          <label for="click2"><img src="/x.png" alt="" style="width: 35px;"></label>
                        </div>
                        <h1 class="text-center p-2">Dott. Rubens Piccionne</h1>
-                       <p class="text-center p-2">Nel 2009 consegue un Master di II livello in Endodonzia, Restaurativa e Protesi fissa della durata di 2 anni presso l’Università di Siena (prof. Grandini) e negli anni successivi prosegue l’attività libero professionale specializzandosi con particolare attenzione nell’endodonzia e nei ritrattamenti endodontici. Alla pratica clinica nel settore affianca l’aggiornamento professionale teorico pratico, presso lo studio del prof. Nello Studio si occupa prevalentemente di Endodonzia e Restaurativa.</p>
+                       <p class="text-center p-2">Nel 2005 si laurea nel Corso di Laurea in Odontoiatria e Protesi Dentaria presso l’Università degli Studi di Torino, abilitazione conseguita nello stesso mese con iscrizione all’Albo dei Medici e Odontoiatri della provincia di Torino n° 2518. Negli anni 2006-2007 frequenta il reparto di Odontostomatologia dell’Ospedale Martini di Torino (ASL 2). Nel 2009 consegue un Master di II livello in Endodonzia, Restaurativa e Protesi fissa della durata di 2 anni presso l’Università di Siena (prof. Grandini) e negli anni successivi prosegue l’attività libero professionale specializzandosi con particolare attenzione nell’endodonzia e nei ritrattamenti endodontici. Alla pratica clinica nel settore affianca l’aggiornamento professionale teorico pratico, presso lo studio del prof. Giovanni Anglesio Farina. In costante aggiornamento approfondisce tematiche gnatologiche con Lorenzo Vanini, di protesi fissa e restaurativa con Loris Prosper, Giorgio Tessore, Fabio Galli, Stefano Lombardo. Nello Studio si occupa prevalentemente di Endodonzia e Restaurativa.</p>
                        
                      </div>
                    </div>
