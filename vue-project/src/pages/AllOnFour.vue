@@ -244,7 +244,7 @@ AOS.init();
                </div>
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
                 <h1 class="h1blue">ALL-ON-SIX</h1>
-                <p>In casi particolari, è possibile eseguire un impianto all-on-six, poggiando cioè la protesi dell’arcata su sei impianti singoli anziché su quattro.Per sapere se questa metodologia fa al caso tuo, contattaci.</p>
+                <p>In casi particolari, è possibile eseguire un impianto all-on-six, poggiando cioè la protesi dell’arcata su sei impianti singoli anziché su quattro. Per sapere se questa metodologia fa al caso tuo, contattaci.</p>
               </div>
              </div>
            </div>
