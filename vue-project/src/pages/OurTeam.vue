@@ -216,14 +216,7 @@
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
                  <h1 class="h1blue">Dott. Fulvio Gardetto
                  </h1>
-                 <p>Laureato con Lode e Dignità di Stampa in Odontoiatra e Protesi Dentaria presso l’Università degli Studi di Torino nel 2003, e nel medesimo Ateneo ottiene Diploma di Perfezionamento in Ch. Orale nel 2005. Si Specializza in Ch. Odontostomatologica, con Lode e Dignità di Stampa nel 2010 all’Università degli Studi di Torino, presso A.O.U. San Luigi Gonzaga dove ha rivestito ruolo di Tutor e Professore A.C. nella medesima Scuola di Specialità.
-  Dal 2003 al 2007 frequentatore presso reparto S.C.D.U Chirurgia Maxillo Facciale di Torino e dal 2007 al 2012 frequentatore e specialista ambulatoriale presso la Struttura Complessa di Chirurgia e Odontostomatologia ASL To1, ospedale Martini.
-  Docente nel 2012-2013 presso l’Università degli Studi di Torino al “Corso di Perfezionamento in Implantologia Biologicamente Guidata".
-  Post Graduate in Chirurgia Parodontale e Perimplantare presso Università Vita-Salute San Raffaele di Milano.
-  Master Universitario II livello presso Università degli Studi di Pisa in Implantologia Zigomatica.
-  Vincitore del Primo Premio Internazionale “Young Prosthodontist Award” ICP (International College of Prosthodontists), ad Halifax (Nova Scotia) nel 2003.
-  Relatore in congressi nazionali, svolge attività come libero professionista con particolare interesse nell’ambito dell’Implantologia, Chirurgia Odontostomatologica ed Orale.
-  Direttore sanitario e supervisore dello Studio omonimo.</p>
+                 <p>Vincitore del Primo Premio Internazionale “Young Prosthodontist Award” ICP (International College of Prosthodontists), ad Halifax (Nova Scotia) nel 2003.</p>
                  <div class="center5">
                      <input type="checkbox" id="click5">
                      <label for="click5" class="click-me">SCOPRI DI PIU</label>
@@ -233,7 +226,14 @@
                          <label for="click5"><img src="/x.png" alt="" style="width: 35px;"></label>
                        </div>
                        <h1 class="text-center p-2">Dott. Fulvio Gardetto</h1>
-                       <p class="text-center p-2">Vincitore del Primo Premio Internazionale “Young Prosthodontist Award” ICP (International College of Prosthodontists), ad Halifax (Nova Scotia) nel 2003. Relatore in congressi nazionali, svolge attività come libero professionista con particolare interesse nell’ambito dell’Implantologia, Chirurgia Odontostomatologica ed Orale. Direttore sanitario e supervisore dello Studio omonimo.</p>
+                       <p class="text-center p-2">Laureato con Lode e Dignità di Stampa in Odontoiatra e Protesi Dentaria presso l’Università degli Studi di Torino nel 2003, e nel medesimo Ateneo ottiene Diploma di Perfezionamento in Ch. Orale nel 2005. Si Specializza in Ch. Odontostomatologica, con Lode e Dignità di Stampa nel 2010 all’Università degli Studi di Torino, presso A.O.U. San Luigi Gonzaga dove ha rivestito ruolo di Tutor e Professore A.C. nella medesima Scuola di Specialità.
+  Dal 2003 al 2007 frequentatore presso reparto S.C.D.U Chirurgia Maxillo Facciale di Torino e dal 2007 al 2012 frequentatore e specialista ambulatoriale presso la Struttura Complessa di Chirurgia e Odontostomatologia ASL To1, ospedale Martini.
+  Docente nel 2012-2013 presso l’Università degli Studi di Torino al “Corso di Perfezionamento in Implantologia Biologicamente Guidata".
+  Post Graduate in Chirurgia Parodontale e Perimplantare presso Università Vita-Salute San Raffaele di Milano.
+  Master Universitario II livello presso Università degli Studi di Pisa in Implantologia Zigomatica.
+  Vincitore del Primo Premio Internazionale “Young Prosthodontist Award” ICP (International College of Prosthodontists), ad Halifax (Nova Scotia) nel 2003.
+  Relatore in congressi nazionali, svolge attività come libero professionista con particolare interesse nell’ambito dell’Implantologia, Chirurgia Odontostomatologica ed Orale.
+  Direttore sanitario e supervisore dello Studio omonimo.</p>
                      </div>
                    </div>
                </div>
