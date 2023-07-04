@@ -246,7 +246,7 @@ AOS.init();
                 <p>La procedura prevede il sollevamento del sinus e quindi l'innesto dell'osso sulla parte della mascella superiore dove l'osso si è assottigliato. Pochi mesi dopo l'innesto, sarai pronto per l'installazione di un impianto dentale.</p>
               </div>
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                 <img src="/sinus.jpg" alt="">
+                 <img src="/rialzodelseno.jpg" alt="">
                </div>
              </div>
            </div>
@@ -270,7 +270,7 @@ AOS.init();
                 <p>Una biopsia è una procedura minore che comporta la rimozione di un campione di tessuto dalla bocca. Può essere utilizzata per scopi di screening o per diagnosticare alcune malattie. Il campione viene quindi inviato per l'analisi.</p>
               </div>
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                 <img src="/biopsia.jpg" alt="">
+                 <img src="/biopsiaprovette.jpg" alt="">
                </div>
               </div>
            </div>

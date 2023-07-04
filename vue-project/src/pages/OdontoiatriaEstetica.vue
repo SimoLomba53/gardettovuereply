@@ -211,7 +211,7 @@ AOS.init();
                 <p class="esteticap">Entrambe queste tipologie di sbiancamento hanno lunga durata, e possono essere ripetute nel tempo con costi ridotti.</p>
               </div>
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                 <img src="/sbiancamento.jpg" alt="">
+                 <img src="/sbiancamentoinestetica.jpg" alt="">
                </div>
              </div>
            </div>

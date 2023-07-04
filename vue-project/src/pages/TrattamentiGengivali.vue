@@ -203,7 +203,7 @@ AOS.init();
             <div data-aos="fade-up" data-aos-duration="1000"  class="col-12 illustration bg-light">
                <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row  ">
                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                   <img src="/innestogengivale.jpg" alt="">
+                   <img src="/igieneprofessionaleindolore.png" alt="">
                  </div>
                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mt-5 mt-sm-5 mt-md-0 mt-lg-0 mt-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
                   <h1 class="h1blue">IGIENE ORALE PROFESSIONALE INDOLORE</h1>
@@ -245,7 +245,7 @@ AOS.init();
                 <p>A volte è necessario riabilitare un dente mediante una corona, ma la struttura residua è così gravemente compromessa da non poter sostenere tale manufatto. In questi casi, il dentista può raccomandare di eseguire un allungamento della corona clinica. Ciò comporta il rimodellamento della gengiva e dell'osso attorno ai denti interessati fino a quando non viene rivelata una struttura dentale sana e resistente.</p>
               </div>
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                 <img src="/allungamentocorona.jpg" alt="">
+                 <img src="/allungamentocoronaclinica.jpg" alt="">
                </div>
             </div>
            </div>
