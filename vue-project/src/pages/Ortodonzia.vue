@@ -232,7 +232,7 @@ AOS.init();
                 <p>I nostri ortodonzisti sono esperti di tutte le tecniche ortodontiche (fissa e mobile) e volgono particolare interesse ed attenzione per l’Ortodonzia linguale o invisibile con certificazione Invisaling.</p>
               </div>
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                 <img src="/ortodonzia3.jpg" alt="">
+                 <img src="/fissamobileortodonzia.jpg" alt="">
                </div>
             </div>
            </div>
