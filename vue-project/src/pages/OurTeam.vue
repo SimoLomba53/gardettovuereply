@@ -216,7 +216,7 @@
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
                  <h1 class="h1blue">Dott. Fulvio Gardetto
                  </h1>
-                 <p>Vincitore del Primo Premio Internazionale “Young Prosthodontist Award” ICP (International College of Prosthodontists), ad Halifax (Nova Scotia) nel 2003.</p>
+                 <p>Fondatore dello Studio, svolge la supervisione clinica e Direzione Sanitaria. Si occupoa prevalentemente di Chirurgia, Protesi ed Implanto-protesi.</p>
                  <div class="center5">
                      <input type="checkbox" id="click5">
                      <label for="click5" class="click-me">SCOPRI DI PIU</label>
@@ -250,7 +250,7 @@
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mt-5 mt-sm-5 mt-md-0 mt-lg-0 mt-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
                  <h1 class="h1blue">Dott. Edoardo Moccia</h1>
-                 <p>Ha vinto il “Premio Francesco Riitano” in occasione del congresso nazionale della Società Italiana di Endodonzia (SIE) di Bologna nel 2019.</p>
+                 <p>Nel nostro Studio si occupa principalmente di Conservativa, Endodonzia e Protesi fissa.</p>
                 <div class="center4">
                      <input type="checkbox" id="click4">
                      <label for="click4" class="click-me4">SCOPRI DI PIU</label>
@@ -277,7 +277,7 @@
               <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
                  <h1 class="h1blue">Dott. Gabriele Zanellato</h1>
-                 <p>Si occupa con grande passione di igiene orale e prevenzione delle patologie orali e collabora con lo Studio Dentistico Gardetto dal 2017.</p>
+                 <p>Si occupa di Igiene Orale e Prevenzione delle patologie orali.</p>
                  <div class="center3">
                      <input type="checkbox" id="click3">
                      <label for="click3" class="click-me3">SCOPRI DI PIU</label>
@@ -304,7 +304,7 @@
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mt-5 mt-sm-5 mt-md-0 mt-lg-0 mt-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
                  <h1 class="h1blue">Dr.ssa Roberta Giovannini</h1>
-                 <p>Laureata nel 2011 in Odontoiatria e Protesi Dentaria presso l’Università degli studi di Torino con la tesi “Clinical prospective study on the post-operative sensitivity in patients with deep carious lesions: Total-etch vs Self-etch adhesives systems.” con punteggio 108/110 e dignità di stampa.</p>
+                 <p>Nella sua pratica clinica si occupa prevalentemente di Odontoiatria Restaurativa estetica, Endodonzia, Pedodonzia e Protesi.</p>
                  <div class="center">
                    <input type="checkbox" id="click">
                    <label for="click" class="click-me">SCOPRI DI PIU</label>
@@ -325,7 +325,7 @@
               <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
                  <h1 class="h1blue">Dr.ssa Maria Teresa Gallo</h1>
-                 <p>Si laurea in Medicina e Chirurgia a Torino ed è specializzata in Ortodonzia.</p>
+                 <p>Nel nostro Studio si occupa di Ortodonzia e Gnatologia.</p>
                  <div class="center1">
                    <input type="checkbox" id="click1">
                    <label for="click1" class="click-me1">SCOPRI DI PIU</label>
@@ -335,7 +335,7 @@
                        <label for="click1" ><img src="/x.png" alt="" style="width: 35px;"></label>
                      </div>
                      <h1 class="text-center p-2">Dr.ssa Maria Teresa Gallo</h1>
-                     <p class="text-center p-2">Si laurea in Medicina e Chirurgia a Torino ed è specializzata in Ortodonzia.Nello studio di famiglia e in diversi ambulatori odontoiatrici di Torino e provincia si occupa unicamente di trattamenti ortodontici sia per i bambini che adulti.Padroneggia ogni genere di trattamento ortodontico,fisso e removibile.</p>
+                     <p class="text-center p-2">Si laurea in Medicina e Chirurgia a Torino ed è specializzata in Ortodonzia. Nello studio di famiglia e in diversi ambulatori odontoiatrici di Torino e provincia si occupa unicamente di trattamenti ortodontici sia per i bambini che adulti. Padroneggia ogni genere di trattamento ortodontico, fisso e removibile.</p>
                      <p class="text-center">Certificata Invisalign@.</p> 
                    </div>
                  </div>
@@ -353,7 +353,7 @@
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mt-5 mt-sm-5 mt-md-0 mt-lg-0 mt-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
                  <h1 class="h1blue">Dott. Rubens Piccionne</h1>
-                 <p>Nel 2009 consegue un Master di II livello in Endodonzia, Restaurativa e Protesi fissa della durata di 2 anni presso l’Università di Siena.</p>
+                 <p>Nel nostro Studio si occupa prevalentemente di Endodonzia e Restaurativa.</p>
                  <div class="center2">
                      <input type="checkbox" id="click2">
                      <label for="click2" class="click-me2">SCOPRI DI PIU</label>
