@@ -36,6 +36,7 @@ AOS.init();
                   <div>
                      <router-link class="text-dark" :to="{ name: 'Homepage' }">
                       <img class="headerlogo" src="/image00012.jpeg" alt="">
+                      ciao
                       </router-link>
                   </div>
                   <div>
