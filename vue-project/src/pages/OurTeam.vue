@@ -1,7 +1,30 @@
-<script setup>
+<script>
   import AOS from "aos";
   
   AOS.init();
+
+  export default {
+  data() {
+    return {
+      parallaxStyle: '',
+    };
+  },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+      this.parallaxStyle = `background-position: center ${scrollTop * 0.3}px;`;
+    },
+  },
+
+
+};
+
   
      
 </script>
@@ -201,13 +224,17 @@
                </div>
            </header>
      <body>
-         
-
+       <div class="parallax-container2">
+         <div class="parallax2" :style="parallaxStyle"></div>
+           <div class="content2 col-12">  
           <div class="col-12 teamwallpaper d-flex align-items-center">
                <div class="col-6 d-flex flex-column justify-content-center p-4">
                <h1 class="text-white fadein visible">IL TEAM DELLO STUDIO DENTISTICO GARDETTO SRL</h1>
                </div>
           </div>
+         </div>
+        </div>
+          
        
          <section>
             <!--PRIMA ILLUSTRAZIONE-->
@@ -503,6 +530,33 @@
 </template>
 
 <style>
+
+.parallax-container2 {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.parallax2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1600'); /* Inserisci il percorso dell'immagine di sfondo */
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  
+}
+
+.content2 {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  color: #ffffff;
+  opacity: 1 !important;
+}
 
 .routerlink{
      opacity: 1;

@@ -1,6 +1,29 @@
-<script setup>
+<script>
 import AOS from "aos";
 AOS.init();
+
+export default {
+  data() {
+    return {
+      parallaxStyle: '',
+    };
+  },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+      this.parallaxStyle = `background-position: center ${scrollTop * 0.3}px;`;
+    },
+  },
+
+
+};
+
 </script>
 
 <template>
@@ -191,12 +214,16 @@ AOS.init();
           </header>
     <body>
         
-
-         <div class="col-12 contactwallpaper d-flex align-items-center">
+     <div class="parallax-container">
+          <div class="parallax" :style="parallaxStyle"></div>
+           <div class="content col-12">
+             <div class="col-12 contactwallpaper d-flex align-items-center">
               <div class="col-8 d-flex flex-column justify-content-center p-4">
-              <h1 class="text-white fadein visible">CONTATTACI</h1>
+              <h1 class="text-white fadein visible" style="z-index: 100;">CONTATTACI</h1>
               </div>
-         </div>
+            </div>
+          </div>
+        </div>
          <div data-aos="fade-up" data-aos-duration="1000" class="datecontact d-flex flex-column p-5 justify-content-center">
             <div class="contactcontent">
             <h1>STUDIO DENTISTICO GARDETTO SRL</h1>
@@ -298,7 +325,7 @@ AOS.init();
                 <li>10080</li>
                 <li><a href=""><span class="azzurro"><i class="fa-solid fa-phone"></i></span>011 988 3444</a></li>
                   <li><a href="" class="mail"><span class="azzurro"><i class="fa-solid fa-envelope"></i></span>studiodentisticogardetto@gmail.com</a></li>
-                <li><a href="">Social Network</a></li>
+                <li><a href="https://www.facebook.com/p/Studio-Dentistico-Fulvio-Gardetto-100063832021571/">Social Network</a></li>
               </ul>
               </div>
             </div>
@@ -315,5 +342,30 @@ AOS.init();
 </template>
 
 <style>
+.parallax-container {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
 
+.parallax {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('https://images.pexels.com/photos/4831/hands-coffee-smartphone-technology.jpg?auto=compress&cs=tinysrgb&w=1600'); /* Inserisci il percorso dell'immagine di sfondo */
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  color: #ffffff;
+  opacity: 1 !important;
+}
 </style>

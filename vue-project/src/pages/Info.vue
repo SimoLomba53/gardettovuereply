@@ -1,6 +1,28 @@
-<script setup>
+<script>
 import AOS from "aos";
 AOS.init();
+
+export default {
+  data() {
+    return {
+      parallaxStyle: '',
+    };
+  },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+      this.parallaxStyle = `background-position: center ${scrollTop * 0.3}px;`;
+    },
+  },
+
+
+};
 </script>
 
 <template>
@@ -189,13 +211,16 @@ AOS.init();
             </div>
         </header>
   <body>
-      
-
+    <div class="parallax-container3">
+      <div class="parallax3" :style="parallaxStyle"></div>
+       <div class="content3 col-12"> 
        <div class="col-12 aboutwallpaper d-flex align-items-center">
             <div class="col-8 d-flex flex-column justify-content-center p-4">
             <h1 class="text-white fadein visible">IL NOSTRO STUDIO</h1>
             </div>
          </div>
+        </div>
+      </div> 
          <div class="col-12 intro2">
             <div data-aos="fade-up" data-aos-duration="1000"  class="welcome col-8 offset-2 d-flex flex-column justify-content-center">
             <h1 class="text-center fadein visible">LA NOSTRA MISSIONE</h1>
@@ -337,5 +362,31 @@ AOS.init();
 </template>
 
 <style>
+ .parallax-container3 {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.parallax3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('/aboutcover.jpg'); /* Inserisci il percorso dell'immagine di sfondo */
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
   
+}
+
+.content3 {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  color: #ffffff;
+  opacity: 1 !important;
+}
+ 
 </style>

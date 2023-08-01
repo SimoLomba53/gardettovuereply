@@ -142,7 +142,7 @@ header {
 
 
 .aboutwallpaper{
-  background-image: url(/aboutcover.jpg);
+  background-image: url();
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -150,7 +150,7 @@ header {
 }
 
 .teamwallpaper {
-  background-image: url(https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1600);
+  background-image: url();
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -191,6 +191,7 @@ header {
 .contactwallpaper h1 {
   font-family: 'Fjalla One', sans-serif;
   font-size: 8.5vw;
+  z-index: 100;
 }
 
 
