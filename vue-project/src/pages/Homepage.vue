@@ -1,7 +1,28 @@
-<script setup>
+<script>
 import AOS from "aos";
 AOS.init();
 
+export default {
+  data() {
+    return {
+      parallaxStyle: '',
+    };
+  },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+      this.parallaxStyle = `background-position: center ${scrollTop * 0.3}px;`;
+    },
+  },
+
+
+};
 
 </script>
 
@@ -196,6 +217,9 @@ AOS.init();
       </div>
     </header>
     <main>
+      <div class="parallax-container25">
+        <div class="parallax25" :style="parallaxStyle"></div>
+        <div class="contenti25 col-12">
       <div class="col-12 backwallpaper d-flex align-items-center">
         <div class="col-8 d-flex flex-column justify-content-center p-4">
           <h1 class="text-white fadein visible">STUDIO DENTISTICO GARDETTO SRL</h1>
@@ -204,10 +228,10 @@ AOS.init();
           <router-link class="text-dark" :to="{ name: 'Contact' }">
             <button>CONTATTACI</button>
           </router-link>
-
-
         </div>
+       </div>
       </div>
+     </div>
       <div class="col-12 intro">
         <div data-aos="fade-up" data-aos-duration="1000"
           class="welcome col-8 offset-2 d-flex flex-column justify-content-center">
@@ -389,4 +413,33 @@ AOS.init();
 
 </html></template>
 
-<style></style>
+<style>
+.parallax-container25 {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.parallax25 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('/pexels-shiny-diamond-3762402.jpg');
+  /* Inserisci il percorso dell'immagine di sfondo */
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+
+}
+
+.contenti25 {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  color: #ffffff;
+  opacity: 1 !important;
+}
+
+</style>

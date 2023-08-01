@@ -231,6 +231,7 @@ export default {
       </div>
     </div>
 
+
     <div class="aboutback col-12">
       <div class="imgcont col-10 offset-1 d-flex flex-row flex-wrap  gap-5  align-items-center justify-content-center">
         <div data-aos="fade-up" data-aos-duration="1000"
@@ -271,6 +272,15 @@ export default {
         </div>
       </div>
     </div>
+
+    <div class="col-12">
+          <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
+                  <source
+                    src='/gardettovideo.mp4' 
+                    type="video/mp4"
+                  />
+          </video>
+        </div>
 
     <footer>
       <div>
