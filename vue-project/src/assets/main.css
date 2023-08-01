@@ -1662,6 +1662,14 @@ ANIMATION SCROLL
 
 @media screen and (max-width: 782px) {
 
+  .backwallpaper {
+      background-image: url(/pexels-shiny-diamond-3762402.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      font-family: 'Cabin', sans-serif;
+    }
+
   .backwallpaper h1 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 8.5vw;
@@ -1673,7 +1681,13 @@ ANIMATION SCROLL
     font-size: 15px;
   }
 
-
+  .aboutwallpaper {
+       background-image: url('/aboutcover.jpg');
+       background-size: cover;
+       background-repeat: no-repeat;
+       height: 100vh;
+       font-family: 'Cabin', sans-serif;
+  }
   .aboutwallpaper h1 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 60px;
@@ -1691,6 +1705,14 @@ ANIMATION SCROLL
     font-size: 5vw;
   }
 
+  .contactwallpaper{
+     background-image: url(/https://images.pexels.com/photos/4831/hands-coffee-smartphone-technology.jpg?auto=compress&cs=tinysrgb&w=1600);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      font-family: 'Cabin', sans-serif;
+  }
+
   .contactwallpaper h1 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 50px;
@@ -1698,7 +1720,7 @@ ANIMATION SCROLL
 
 
   .impiantologiawallpaper {
-    background-image: url();
+    background-image: url(/pexels-cedric-fauntleroy-4270094.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -1717,7 +1739,7 @@ ANIMATION SCROLL
 
 
   .esteticawallpaper {
-    background-image: url();
+    background-image: url(/esteticawallpaper.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -1736,7 +1758,7 @@ ANIMATION SCROLL
 
 
   .gengivaliwallpaper {
-    background-image: url();
+    background-image: url(/gengivaliwallpaper.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -1757,7 +1779,7 @@ ANIMATION SCROLL
 
 
   .zigomaticawallpaper {
-    background-image: url();
+    background-image: url(/zigomaticawallpaper.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -1776,7 +1798,7 @@ ANIMATION SCROLL
 
 
   .gelwallpaper {
-    background-image: url();
+    background-image: url(/pexels-jill-burrow-6387859.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -1796,7 +1818,7 @@ ANIMATION SCROLL
 
 
   .ortodonziawallpaper {
-    background-image: url();
+    background-image: url(/ortodonziatitolophone.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -1817,7 +1839,7 @@ ANIMATION SCROLL
 
 
   .eccellenzawallpaper {
-    background-image: url();
+    background-image: url(/pexels-shiny-diamond-3762402.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -1837,7 +1859,7 @@ ANIMATION SCROLL
 
 
   .chirurgiawallpaper {
-    background-image: url();
+    background-image: url(/pexels-cottonbro-studio-6502029.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -1857,7 +1879,7 @@ ANIMATION SCROLL
 
 
   .allonfourwallpaper {
-    background-image: url();
+    background-image: url(/pexels-cedric-fauntleroy-4269687.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -1877,7 +1899,7 @@ ANIMATION SCROLL
 
 
   .otticawallpaper {
-    background-image: url();
+    background-image: url(/improntaotticatitolophone.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
