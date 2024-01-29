@@ -218,7 +218,7 @@ AOS.init();
             class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
             <h1 class="h1blue">Dott. Fulvio Gardetto
             </h1>
-            <p>Fondatore dello Studio, svolge la supervisione clinica e Direzione Sanitaria. Si occupoa prevalentemente di
+            <p>Fondatore dello Studio, svolge la supervisione clinica e Direzione Sanitaria. Si occupa prevalentemente di
               Chirurgia, Protesi ed Implanto-protesi.</p>
             <div class="center5">
               <input type="checkbox" id="click5">

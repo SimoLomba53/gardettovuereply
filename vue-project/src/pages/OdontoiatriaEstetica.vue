@@ -237,7 +237,7 @@ export default {
                 sorridere di nuovo con fiducia! Il nostro studio dentale offre ai pazienti 2 opzioni di sbiancamento dei
                 denti:</p>
               <p class="esteticap"><span class="fw-bold esteticap">Sbiancamento domiciliare:</span> Riceverai un kit con
-                mascherine personalizzate gel sbiancante. Il trattamento può essere effettuato a casa per alcune
+                mascherine personalizzate e gel sbiancante. Il trattamento può essere effettuato a casa per alcune
                 settimane.</p>
               <p class="esteticap"><span class="fw-bold esteticap">Sbiancamento combinato:</span> Per un risultato ancora
                 più splendente sarà effettuata una seduta in studio di sbiancamento professionale, sotto la supervisione
@@ -276,7 +276,7 @@ export default {
               <h1 class="h1blue">FACCETTE</h1>
               <p>Una faccetta dentale è un sottile guscio di porcellana o composito che viene applicato sulla parte
                 anteriore di un dente per migliorarne l'aspetto. Le faccette vengono utilizzate per ripristinare denti
-                scoloriti, deformi, usurati, scheggiati o leggermente disallineati. Possono anche essere usati per
+                scoloriti, deformi, usurati, scheggiati o leggermente disallineati. Possono anche essere usate per
                 riempire uno spazio antiestetico tra due denti. Le faccette sono utilizzate principalmente per scopi
                 cosmetici, non per rendere i denti più forti.</p>
             </div>
@@ -325,7 +325,7 @@ export default {
             <div
               class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
               <h1 class="h1blue">GIOIELLI DENTALI</h1>
-              <p>Stai cercando di aggiungere un tocco speciale al tuo sorriso caratteristico? Hai considerato i gioielli
+              <p>Stai cercando di aggiungere un tocco speciale al tuo sorriso caratteristico? Hai considerato i gioiello
                 dentali? Installare una gemma dentale è semplice, indolore e sicuro. E bastano pochi minuti!</p>
             </div>
           </div>

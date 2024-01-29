@@ -238,7 +238,7 @@ export default {
           <h1 class="text-center fadein visible">BENVENUTO NEL TUO STUDIO ODONTOIATRICO!</h1>
           <p class="fadein visible"><b>Esperienza ventennale</b>, aggiornamento costante e rigore professionale: questo è
             lo <b>Studio Dentistico Gardetto SRL</b> a San Benigno Canavese (a pochi km da Torino).</p>
-          <p><b>Professionisti</b> che uniscono diverse competenze e saperi, votata alla bellezza e alla salute del vostro
+          <p><b>Professionisti</b> che uniscono diverse competenze e saperi, votati alla bellezza e alla salute del vostro
             sorriso, <b>quattro ambulatori</b> attrezzati con strumentazioni specifiche per ogni particolare trattamento,
             le più <b>moderne tecnologie</b> in campo odontoiatrico per operare con assoluta precisione ed efficacia, la
             più totale igiene e sterilità degli ambienti e degli strumenti, l’<b>alta competenza</b> nell’offerta dei

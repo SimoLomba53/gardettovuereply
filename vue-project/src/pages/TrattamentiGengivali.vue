@@ -249,13 +249,13 @@ export default {
             class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row">
             <div
               class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
-              <h1 class="h1blue">TRATTAMENTI PARADONTALI</h1>
+              <h1 class="h1blue">TRATTAMENTI PARADONTALI E PARADONTITE</h1>
               <p>La paradontite,detta anche "piorrea", è un'infezione delle gengive, spesso senza sintomi, che può portare
                 alla perdita dei denti. Questa patologia può essere trattata con trattamenti specifici: Levigature
                 radicolari (scaling/curettage) che consistono nelle eliminazioni di batteri e tartaro sotto la gengiva.
               </p>
               <p>Una volta effettuati questi trattamenti, il team del nostro studio vi darà istruzioni specifiche per il
-                mantenimento dell'igiene domiciliare, trovando un percorso personalizzato a lungo termine, che consenta di
+                mantenimento dell'igiene domiciliare, trovando un percorso personalizzato a lungo termine che consenta di
                 minimizzare l'insorgere di disturbi gengivali e dentali.</p>
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
