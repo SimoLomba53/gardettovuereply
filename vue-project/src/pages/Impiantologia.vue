@@ -147,8 +147,8 @@ export default {
               </router-link>
             </li>
             <li>
-                <router-link class="text-dark" :to="{ name: 'OurTeam' }">
-                  <a href="">IL NOSTRO TEAM</a>
+                <router-link class="text-dark" :to="{ name: 'Prodotti' }">
+                  <a href="">PRODOTTI</a>
                 </router-link>
               </li>
             <li>

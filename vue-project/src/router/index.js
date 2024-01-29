@@ -14,6 +14,7 @@ import GelPiastrinici from '../pages/GelPiastrinici.vue'
 import AllOnFour from '../pages/AllOnFour.vue'
 import Ottica from '../pages/Ottica.vue'
 import Zigomatica from '../pages/Zigomatica.vue'
+import Prodotti from '../pages/Prodotti.vue'
 
 
 const router = createRouter({
@@ -86,6 +87,11 @@ const router = createRouter({
       path: "/zigomatica",
       name: "Zigomatica",
       component: Zigomatica,
+    },
+    {
+      path: "/prodotti",
+      name: "Prodotti",
+      component: Prodotti,
     },
   ],
 });
