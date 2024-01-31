@@ -150,6 +150,14 @@ header {
   font-family: 'Cabin', sans-serif;
 }
 
+.prodottiwallpaper {
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Cabin', sans-serif;
+}
+
 .teamwallpaper {
   background-image: url(https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1600);
   background-size: cover;
@@ -171,6 +179,11 @@ header {
 }
 
 .aboutwallpaper h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 8.5vw;
+}
+
+.prodottiwallpaper h1 {
   font-family: 'Fjalla One', sans-serif;
   font-size: 8.5vw;
 }
@@ -1021,6 +1034,10 @@ body::-webkit-scrollbar-thumb {
     width: 70%;
   }
 
+  .prodottiwallpaper button {
+       width: 70%;
+  }
+
   .backwallpaper button {
     width: 70%;
   }
@@ -1096,6 +1113,11 @@ body::-webkit-scrollbar-thumb {
   .aboutwallpaper button {
     width: 100%;
     font-size: 12px;
+  }
+
+  .prodottiwallpaper button {
+       width: 100%;
+       font-size: 12px;
   }
 
   .backwallpaper button {
@@ -1691,6 +1713,19 @@ ANIMATION SCROLL
   .aboutwallpaper h1 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 60px;
+  }
+
+  .prodottiwallpaper {
+          background-image: url('/prodottiwallpaper.jpg');
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 100vh;
+          font-family: 'Cabin', sans-serif;
+        }
+    
+  .prodottiwallpaper h1 {
+          font-family: 'Fjalla One', sans-serif;
+          font-size: 60px;
   }
 
   .aboutback {
