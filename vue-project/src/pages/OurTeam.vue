@@ -501,6 +501,11 @@ AOS.init();
               </router-link>
             </li>
             <li>
+                <router-link class="text-dark" :to="{ name: 'Prodotti' }">
+                  <a href="">Prodotti</a>
+                </router-link>
+              </li>
+            <li>
               <router-link class="text-dark" :to="{ name: 'Contact' }">
                 <a href="">Contattaci</a>
               </router-link>

@@ -15,6 +15,7 @@ import AllOnFour from '../pages/AllOnFour.vue'
 import Ottica from '../pages/Ottica.vue'
 import Zigomatica from '../pages/Zigomatica.vue'
 import Prodotti from '../pages/Prodotti.vue'
+import Videoclean from '../pages/Videoclean.vue'
 
 
 const router = createRouter({
@@ -92,6 +93,11 @@ const router = createRouter({
       path: "/prodotti",
       name: "Prodotti",
       component: Prodotti,
+    },
+    {
+      path: "/videoclean",
+      name: "Videoclean",
+      component: Videoclean,
     },
   ],
 });

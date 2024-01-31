@@ -240,9 +240,73 @@ export default {
             </div>
         </div>
 
+        <hr>
+
+         <section>
+            <!--PRIMA ILLUSTRAZIONE-->
+            <!--<div data-aos="fade-up" data-aos-duration="1000" class="col-12 illustration">
+              <div
+                class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row">
+                <div
+                  class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
+                  <h1 class="text-dark">Straumann</h1>
+                  <h3 class="">Eccellenza fra gli impianti dentali.</h3>
+                  <p>Le persone non sono tutte uguali e nemmeno gli impianti dentali. La ricerca e l’innovazione del design, del materiale e della superficie degli impianti dentali Straumann, nelle mani del tuo dentista, sono importanti per la riuscita del trattamento implantare.</p>
+                  
+                    <a href="https://www.straumann.com/it/it/pazienti.html"><button>SCOPRI DI PIU</button></a>
+                  
+
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                  <a href="https://www.straumann.com/it/it/pazienti.html"><img class="scaleproduct" src='/productimg1.png' alt=""></a>
+                </div>
+              </div>
+            </div>-->
+            <!--SECONDA ILLUSTRAZIONE-->
+            <!--<div data-aos="fade-up" data-aos-duration="1000" class="col-12 illustration bg-light">
+              <div
+                class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row  ">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                  <a href="https://www.geistlich.it/dental-paziente"><img class="scaleproduct" src='/productimg2.png' alt=""></a>
+                </div>
+                <div
+                  class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mt-5 mt-sm-5 mt-md-0 mt-lg-0 mt-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
+                  <h1 class="text-dark">Geistlich</h1>
+                  <h3 class="">Una sicurezza nella rigenerazione tissutale e ossea.</h3>
+                  <p>Geistlich Pharma è specializzata nella rigenerazione di ossa, cartilagini e tessuti. I prodotti medici rigenerativi di Geistlich mirano a migliorare la qualità della vita dei pazienti.</p>
+                  
+                  
+                    <a href="https://www.geistlich.it/dental-paziente"><button>SCOPRI DI PIU</button></a>
+                  
+
+                </div>
+              </div>
+            </div>-->
+            <!--TERZA ILLUSTRAZIONE-->
+            <!--<div data-aos="fade-up" data-aos-duration="1000" class="col-12 illustration">
+              <div
+                class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row">
+                <div
+                  class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
+                  <h1 class="text-dark">Neodent</h1>
+                  <h3 class="">A Straumann Group Brand.</h3>
+                  <p>Fondata da un dentista per i dentisti, con l'obiettivo di cambiare la vita di un numero sempre più grande di pazienti, Neodent è disponibile in oltre 80 paesi e con più di 3 milioni di impianti venduti ogni anno.</p>
+                  
+                    <a href="https://www.straumann.com/neodent/it/it/pazienti.html"><button>SCOPRI DI PIU</button></a>
+                  
+
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                  <a href="https://www.straumann.com/neodent/it/it/pazienti.html"><img class="scaleproduct" src='/productimg3.png' alt=""></a>
+                </div>
+              </div>
+            </div>-->
+
+          </section>
+
 
       
-
+        <hr>
         <footer>
             <div>
 
@@ -259,6 +323,11 @@ export default {
                         <li>
                             <router-link class="text-dark" :to="{ name: 'OurTeam' }">
                                 <a href="">Il nostro team</a>
+                            </router-link>
+                        </li>
+                        <li>
+                            <router-link class="text-dark" :to="{ name: 'Prodotti' }">
+                                <a href="">Prodotti</a>
                             </router-link>
                         </li>
                         <li>
@@ -375,4 +444,15 @@ export default {
     height: 100%;
     color: #ffffff;
     opacity: 1 !important;
-}</style>
+}
+
+.scaleproduct{
+    transition: all .6s ease-in-out;
+}
+
+.scaleproduct:hover{
+    transform: scale(1.06);
+}
+
+
+</style>

@@ -250,7 +250,11 @@ export default {
                 fastidio.</p>
               <p>Con la GBT (Guided Biofilm Therapy), infatti, la seduta di igiene risulterà più confortevole e meno
                 stressante per il paziente.</p>
+                <router-link class="text-dark" :to="{ name: 'Videoclean' }">
+                    <button>SCOPRI DI PIU</button>
+              </router-link>
             </div>
+            
           </div>
         </div>
         <!--PRIMA ILLUSTRAZIONE-->
@@ -327,6 +331,11 @@ export default {
                 <a href="">Il nostro team</a>
               </router-link>
             </li>
+            <li>
+                <router-link class="text-dark" :to="{ name: 'Prodotti' }">
+                  <a href="">Prodotti</a>
+                </router-link>
+              </li>
             <li>
               <router-link class="text-dark" :to="{ name: 'Contact' }">
                 <a href="">Contattaci</a>
