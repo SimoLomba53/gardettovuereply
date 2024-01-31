@@ -67,9 +67,9 @@ export default {
             <h2 class="text-center h1blue p-2 ff">IGIENE ORALE PROFESSIONALE INDOLORE</h2>
             <p class="text-center p-3 ff">Il Dott. Gabriele Zanellato ci spiega nel dettaglio come funziona il trattamento con la GBT (Guided Biofilm Therapy).</p>
             <video controls loop class="col-8 offset-2">
-              <source src="videoclean.mp4"
+              <source src="/videoclean.mp4"
                 type="video/mp4">
-              <source src="videoclean.mp4"
+              <source src="/videoclean.mp4"
                 type="video/ogg">
             </video>
           </div>
