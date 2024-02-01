@@ -244,7 +244,7 @@ export default {
 
          <section>
             <!--PRIMA ILLUSTRAZIONE-->
-            <!--<div data-aos="fade-up" data-aos-duration="1000" class="col-12 illustration">
+            <div data-aos="fade-up" data-aos-duration="1000" class="col-12 illustration">
               <div
                 class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row">
                 <div
@@ -261,9 +261,9 @@ export default {
                   <a href="https://www.straumann.com/it/it/pazienti.html"><img class="scaleproduct" src='/productimg1.png' alt=""></a>
                 </div>
               </div>
-            </div>-->
+            </div>
             <!--SECONDA ILLUSTRAZIONE-->
-            <!--<div data-aos="fade-up" data-aos-duration="1000" class="col-12 illustration bg-light">
+            <div data-aos="fade-up" data-aos-duration="1000" class="col-12 illustration bg-light">
               <div
                 class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row  ">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
@@ -281,9 +281,9 @@ export default {
 
                 </div>
               </div>
-            </div>-->
+            </div>
             <!--TERZA ILLUSTRAZIONE-->
-            <!--<div data-aos="fade-up" data-aos-duration="1000" class="col-12 illustration">
+            <div data-aos="fade-up" data-aos-duration="1000" class="col-12 illustration">
               <div
                 class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row">
                 <div
@@ -300,7 +300,7 @@ export default {
                   <a href="https://www.straumann.com/neodent/it/it/pazienti.html"><img class="scaleproduct" src='/productimg3.png' alt=""></a>
                 </div>
               </div>
-            </div>-->
+            </div>
 
           </section>
 
