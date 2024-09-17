@@ -21,15 +21,7 @@ import Videoclean from '../pages/Videoclean.vue'
 const router = createRouter({
   history: createWebHistory(),
   routes,
-  scrollBehavior(to, from, savedPosition) {
-    // Se c'è una posizione salvata (ad esempio quando usi il pulsante "Indietro" del browser)
-    if (savedPosition) {
-      return savedPosition;
-    } else {
-      // Scrolla all'inizio della pagina
-      return { left: 0, top: 0 };
-    }
-  },
+  
   linkActiveClass: "active",
   linkExactActiveClass: "",
   routes: [
