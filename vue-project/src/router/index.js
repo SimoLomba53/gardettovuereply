@@ -20,7 +20,6 @@ import Videoclean from '../pages/Videoclean.vue'
 
 const router = createRouter({
   history: createWebHistory(),
-  routes,
   linkActiveClass: "active",
   linkExactActiveClass: "",
   routes: [
@@ -100,10 +99,7 @@ const router = createRouter({
       name: "Videoclean",
       component: Videoclean,
     },
-    
   ],
-
-  
 });
 
 export { router };
