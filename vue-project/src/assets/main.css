@@ -1,8 +1,6 @@
 @import './base.css';
 
-html{
-  scroll-behavior: smooth;
-}
+
 
 body {
   background: rgb(191, 191, 191);
